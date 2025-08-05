@@ -3,6 +3,14 @@ description: >-
   How to import existing content into GitBook from Confluence, Notion, Git and
   more
 icon: arrow-up-to-line
+layout:
+    width: default
+    title:
+        visible: false
+    description:
+        visible: true
+    metadata:
+        visible: false
 ---
 
 # Importing content
