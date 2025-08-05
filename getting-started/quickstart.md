@@ -1,6 +1,23 @@
 ---
 description: Get up and running in GitBook and publish your first docs site in minutes
 icon: bolt
+layout:
+    width: default
+    cover:
+        visible: true
+        size: hero
+    title:
+        visible: true
+    description:
+        visible: false
+    tableOfContents:
+        visible: false
+    outline:
+        visible: false
+    pagination:
+        visible: false
+    metadata:
+        visible: false
 ---
 
 # Quickstart
