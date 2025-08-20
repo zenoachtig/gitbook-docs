@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [GitBook Documentation](README.md)
+* [GitBook Documentation 1](README.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Importing content](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
