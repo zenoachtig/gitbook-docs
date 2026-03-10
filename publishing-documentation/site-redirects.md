@@ -68,13 +68,17 @@ Once enabled, the redirect moves to the **Live** tab and immediately starts rout
 
 Click **Add redirect** and choose **Upload CSV**.
 
-Upload a CSV with exactly two columns named: **source** and **destination:**
+Upload a CSV with the columns `source`, `destination`, and optional `intent`.
 
-* The source is the path you want to redirect (for example, /docs/site-redirects)
-* The destination can be:
-  * A specific page: use the page's admin URL, as shown in the screenshot below
-  * An external URL
-  * An empty string (""): removes the redirect for that source
+* `source` is the path you want to redirect, for example /docs/site-redirects
+* `destination` can be:
+  * a specific page, using the page’s admin URL as shown in the screenshot below
+  * an external URL
+  * empty, depending on the intent
+* `intent` can be:
+  * live, left blank, or omitted entirely, to create, update, or remove a live redirect
+  * draft to create, update, or remove a draft redirect
+  * publish to publish an existing draft redirect to live, `destination` must be empty.
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>You can find the GitBook admin URL for a page in this menu</p></figcaption></figure></div>
 
@@ -83,6 +87,18 @@ A maximum of 500 rows is supported per import.
 If your CSV includes duplicate source values, only the first row is processed. The import runs as an upsert: existing redirects with the same source are updated, and new redirects are created for sources that don’t exist yet.
 
 If any rows fail, an error CSV is available from the bottom-right toast. It includes source, destination, and a short explanation of each error so you can fix, delete the errors column and re-import.
+
+#### CSV Examples
+
+| source               | destination              | intent  | Result                                      |
+| -------------------- | ------------------------ | ------- | ------------------------------------------- |
+| /docs/site-redirects | https://example.com/page | blank   | Create or update a live redirect            |
+| /docs/site-redirects | https://example.com/page | live    | Create or update a live redirect            |
+| /docs/site-redirects | https://example.com/page | draft   | Create or update a draft redirect           |
+| /docs/site-redirects | empty                    | blank   | Remove the live redirect                    |
+| /docs/site-redirects | empty                    | live    | Remove the live redirect                    |
+| /docs/site-redirects | empty                    | draft   | Remove the draft redirect                   |
+| /docs/site-redirects | empty                    | publish | Publish the existing draft redirect to live |
 
 ## About automatic redirects
 
