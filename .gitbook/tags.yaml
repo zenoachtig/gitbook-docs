@@ -4,6 +4,9 @@
 - tag: pro
   label: Pro feature
   icon: square-plus
+- tag: experiment
+  label: Experiment
+  icon: tag
 - tag: early-access
   label: Early access
   icon: lock
