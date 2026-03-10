@@ -3,9 +3,9 @@ description: "Tags are reusable labels you can add to pages and update blocks â€
 tags:
   - news
   - experiment
-  - pro
   - tag: beta
     primary: true
+  - pro
 ---
 
 # Tags

@@ -3,6 +3,9 @@ description: >-
   Learn how GitBook Agent works in the background to keep your documentation
   up-to-date
 icon: message-pen
+tags:
+  - tag: early-access
+    primary: true
 ---
 
 # Automatic documentation suggestions
@@ -10,7 +13,7 @@ icon: message-pen
 {% hint style="info" %}
 #### This feature is currently in early access
 
-Head to **Organization Settings → GitBook Agent** to request access.
+We’re currently testing this feature with a small number of teams as we develop it further. Head to **Organization Settings → GitBook Agent** to request access.
 {% endhint %}
 
 GitBook Agent can [connect to the same signals](connecting-a-source.md) your team uses to understand both your product and what your users need: support conversations, Slack threads, GitHub issues, and more.

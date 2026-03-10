@@ -1,9 +1,9 @@
 - tag: beta
   label: Beta
-  icon: asterisk
+  icon: flask
 - tag: pro
-  label: Pro
-  icon: sigma
-- tag: experiment
-  label: Experiment
-  icon: tag
+  label: Pro feature
+  icon: square-plus
+- tag: early-access
+  label: Early access
+  icon: lock
