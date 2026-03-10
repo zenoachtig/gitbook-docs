@@ -13,6 +13,8 @@ Redirects are commonly used when you are migrating your documentation from one p
 
 In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain.
 
+Redirects can be created as either **Live** or **Draft**. Draft redirects allow you to prepare and review redirect rules before publishing them. Drafts do not affect your live site until they are enabled.
+
 ## Managing redirects on your site
 
 To get started, view your site’s dashboard in GitBook and open the **Settings** tab, then click **Domain & redirects**.
@@ -21,7 +23,11 @@ To get started, view your site’s dashboard in GitBook and open the **Settings*
 
 Click **Add redirect** and select the **Manual** option.&#x20;
 
-Fill in the source path — i.e. the URL slug that you wish to redirect somewhere else — and the destination content you wish to link to. You can pick any [section](site-structure/site-sections.md), [variant](site-structure/variants.md), or [page](../creating-content/content-structure/page/) on to your site. Click **Add** to create the redirect.
+Fill in the **source path** — the URL slug you want to redirect — and the **destination** content you want visitors to be sent to. You can select any section, variant, or page on your site.
+
+Click **Enable redirect** to immediately enable the redirect.
+
+If you want to create the redirect without making it live yet, click **Save as draft** instead. Draft redirects appear in the **Draft** tab and can be enabled later.
 
 You can also create **wildcard redirects** by adding \* at the end of the source path, for example:
 
@@ -37,13 +43,26 @@ When your source path includes a wildcard (\*), you can enable **Replace wildcar
   * Example: source /docs/\* → destination /help\
     /docs/install redirects to /help
 
-If you want to add another redirect to the same page, you can toggle the **Add another redirect** option on before you hit **Add**. When you add your redirect, the modal will remain open with the destination content set to the previous selection so you can add another URL slug immediately.
+If you want to add another redirect to the same page, toggle **Add another redirect** before clicking **Enable redirect** or **Save as draft**.
+
+When you add the redirect, the modal will remain open with the destination content set to your previous selection so you can quickly add another source path.
 
 ### Editing redirects
 
-To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> icon next to it in the list. Update the redirect and hit **Save**.
+To edit a redirect, click the **Edit** icon next to it in the list. Update the redirect and click **Enable redirect** to publish your changes.
 
-To delete a redirect, press the **Delete redirect** button and confirm.
+If the redirect is currently a **draft**, you can also publish it directly from the edit modal by clicking **Enable redirect**.
+
+### Enabling draft redirects
+
+Draft redirects appear in the **Draft** tab of the redirects table.
+
+You can publish a draft redirect in two ways:
+
+• Open the redirect and click **Enable redirect** in the edit modal.\
+• Use the **toggle in the table** to enable the redirect directly.
+
+Once enabled, the redirect moves to the **Live** tab and immediately starts routing visitors.
 
 ### Import redirects from a CSV
 
