@@ -150,7 +150,7 @@
   * [Authentication](publishing-documentation/embedding/authentication/using-with-authenticated-docs.md)
   * [Configuration](publishing-documentation/embedding/configuration/README.md)
     * [Customizing the Embed](publishing-documentation/embedding/configuration/customizing-docs-embed.md)
-    * [Creating custom tools](publishing-documentation/embedding/configuration/creating-custom-tools.md)
+    * [Connect to custom tools](publishing-documentation/embedding/configuration/creating-custom-tools.md)
     * [API Reference](publishing-documentation/embedding/configuration/reference.md)
 
 ## Integrations

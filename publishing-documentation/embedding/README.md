@@ -1,6 +1,6 @@
 ---
 description: Embed your documentation in your product or website using the Docs Embed.
-icon: window-restore
+icon: picture-in-picture
 ---
 
 # Embed in your product
