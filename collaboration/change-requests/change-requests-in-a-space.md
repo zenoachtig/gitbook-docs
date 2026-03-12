@@ -8,7 +8,7 @@ When you’re within a [space](../../getting-started/concepts.md#space), you can
 
 ### Creating a change request
 
-Inside a space where live edits are disabled, click the **Edit** button in the [space header](../../resources/gitbook-ui/#space-header) to start a new change request.
+Click the **Edit** button in the [space header](../../resources/gitbook-ui/#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -38,7 +38,7 @@ Head to [Writing with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.
 
 You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
 
-Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.&#x20;
+Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.
 
 When you open a preview URL in a new tab, you will also see [the Preview toolbar](../../resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
 
@@ -54,7 +54,7 @@ If your content is published using share links or authenticated access, the prev
 
 Request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
 
-Select the **Overview** tab in the space header bar to open an overview of your change request — including all the changes you’ve made in diff view.
+Select the **Overview** tab in the space header bar to open an overview of your change request — including all the changes you’ve made in diff view.
 
 Here you can add a description to your change request to give your reviewers some context, and tag specific people that you want to check your work.
 
@@ -63,7 +63,7 @@ When you click **Request a review**, the change request’s status will change t
 If your changes don’t require a review, you have the appropriate [permissions](../../account-management/member-management/roles.md), and you don’t have any blocking [merge rules](../merge-rules.md), you can merge your changes into the main version directly instead.
 
 {% hint style="info" %}
-[Add GitBook Agent as a reviewer](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to your change request and it can check your content for spelling, grammar and style guide errors, suggest improvements and more.&#x20;
+[Add GitBook Agent as a reviewer](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to your change request and it can check your content for spelling, grammar and style guide errors, suggest improvements and more.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -86,6 +86,23 @@ You can switch to the **Changes** tab to check the diff view in any change reque
 Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the space’s [version history](../../creating-content/version-control.md#see-the-activity-of-a-specific-draft).
 
 You might not be able to merge a change request if you don’t have the right [permissions](../../account-management/member-management/permissions-and-inheritance.md), or if your change request hasn’t passed your organization or space’s [merge rules](../merge-rules.md).
+
+### Updating a change request
+
+As you're working inside a change request, other contributors may be modifying the main branch of the space. When this happens, your change request is considered "out of date" - there is content on the main branch that you don't see inside your change request.
+
+You may want to pull in this new content into your change request. This can be useful if:
+
+* You want to see how your changes and the content on main look once everything is together.
+* You need to make changes to the pulled content as part of your change request.
+
+You can do this by pressing **Update** in the header of the change request screen.
+
+Once you press **Update**, all content from the main branch is pulled into your change request. You may get conflicts when you update - you'll be able to resolve them inside the change request. Once conflicts have been resolved, the change request is considered up-to-date and the Update button disappears.
+
+If the main branch changes again, your change request will again be out-of-date and the Update button will appear.
+
+Asking editors to have their change requests up-to-date before merging is a good quality control - it helps authors check the exact content that will go into the main branch once their change request is merged. You can enforce this with a [merge rule](../merge-rules.md).
 
 ### Resolving merge conflicts
 
