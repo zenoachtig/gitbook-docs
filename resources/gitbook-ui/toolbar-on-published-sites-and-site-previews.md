@@ -27,6 +27,18 @@ You will see the toolbar in the following situations:
 * Previewing earlier versions of your site through your [version history](../../creating-content/version-control.md)
 * Previewing links for proposed changes, such as in a [change request](../../collaboration/change-requests/) created in GitBook or a pull request created through [Git Sync](../../getting-started/git-sync/github-pull-request-preview.md)
 
+#### Why isn’t the toolbar displayed?
+
+If you’re logged into GitBook and still don’t see the toolbar, your browser may be blocking third-party cookies.
+
+The toolbar uses third-party cookies to recognize your GitBook session on your published docs site or preview URL. If your browser blocks those cookies, the toolbar may not appear.
+
+To display the toolbar, enable third-party cookies for your docs domain in your browser settings, then reload the page.
+
+{% hint style="info" %}
+This issue is more common in browsers or extensions with stricter privacy settings.
+{% endhint %}
+
 #### Can I hide the toolbar?
 
 Yes. By clicking the last button on the toolbar, you can choose between different options to change how the toolbar is displayed:
@@ -36,4 +48,3 @@ Yes. By clicking the last button on the toolbar, you can choose between differen
 3. **Don't show again:** Hides the toolbar and remembers your choice. You can restore the toolbar by clearing your browser’s local storage.
 
 <figure><img src="../../.gitbook/assets/25_10_16_gitbook_ui_preview_toolbar@2x.jpg" alt=""><figcaption></figcaption></figure>
-
