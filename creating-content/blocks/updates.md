@@ -10,7 +10,13 @@ You can add a date to your update block, then format the content inside the bloc
 
 Once you’ve added an update block to your page, you can hover your cursor above or below the block to see the option to add another in sequence.
 
-Each update block can also have its own [tags](../content-structure/page/tags.md). Use the tag picker below the date to add, remove, or reorder tags.
+Each update block can also have its own [tags](../content-structure/page/tags.md). Use the tag picker below the date to add, remove, or reorder tags.
+
+### RSS feeds
+
+Any page containing an updates block automatically gets an RSS feed, making it easy for your readers to stay on top of new updates.
+
+Users can open the RSS feed from the button at the top of the page, copy the URL, and paste it into their preferred reader. Any updates you publish in your changelog will automatically be pushed to that reader so they’ll see them in real-time.
 
 ### Example
 
