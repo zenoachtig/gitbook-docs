@@ -109,24 +109,3 @@ The text inside the quotes (`"Page link title"`) will be used:
 * In any relative links you add to that page
 
 Page link titles are optional — if you don’t manually add one, GitBook will use the page’s standard title everywhere by default.
-
-### ​Redirects <a href="#redirects" id="redirects"></a>
-
-Redirects allow you to define redirects in your `.gitbook.yaml` configuration file. The path is relative to the “root” option. For example, here’s how you can tell GitBook to redirect users accessing a past url `/help` to a new url `/support`
-
-{% code title=".gitbook.yaml" %}
-```yaml
-root: ./
-
-redirects:
-  help: support.md
-```
-{% endcode %}
-
-{% hint style="info" %}
-Redirects you define in a space’s configuration file are scoped to the corresponding space. We recommend creating [site redirects](../../publishing-documentation/site-redirects.md) for most cases as they apply to the whole site, across spaces.
-{% endhint %}
-
-{% hint style="warning" %}
-With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
-{% endhint %}
