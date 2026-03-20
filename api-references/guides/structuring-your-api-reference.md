@@ -63,11 +63,11 @@ You can enhance pages with titles, icons, and descriptions using custom extensio
 tags:
   - name: pet
     # Page title displayed in table of contents and page
-    -x-page-title: Pet
+    x-page-title: Pet
     # Icon shown in table of contents and next to page title
-    -x-page-icon: dog
+    x-page-icon: dog
     # Description shown just above the title
-    -x-page-description: Pets are amazing!
+    x-page-description: Pets are amazing!
     # Content of the page
     description: Everything about your Pets
 ```
