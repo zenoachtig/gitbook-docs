@@ -31,12 +31,10 @@ There are three primary options to choose from when publishing your site:
 
 To delete a docs site, you’ll need to open your site’s dashboard, then open [**Site settings**](../site-settings.md#delete-site) from the top-right corner.
 
-### Site editing permissions
+### Site permissions
 
-Docs sites inherit the editing permissions from the [spaces](../../creating-content/content-structure/space.md) linked to them.
+Admins can manage site permissions directly from a docs site.
 
-You can view all the permissions set for users with access to the docs site from the permissions modal from the docs site’s **Overview** page. You’ll also see which space the user’s permission was inherited from. If you’d like to change the permission settings, open the space, then click **Share**. Here you can edit the permissions from a modal.
+From the site’s **Overview** page, click **Share** in the top-right corner. You can also open **Settings** > **General** and click **Access** > **Manage permissions**.
 
-Users with **Administrator** or **Creator** permissions on _any_ space linked to a specific docs site will have full access permissions for the site. This means that they’ll be able to control any of the publishing and customization settings.
-
-Users with **Reviewer**, **Editor**, **Commenter**, or **Reader** permissions on any space linked to a specific site will get read-only permissions. This means they will see the docs site in your organization, but won’t be able to access any of its settings.
+You can also manage these settings from [Site settings](../site-settings.md).
