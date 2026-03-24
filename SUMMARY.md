@@ -54,6 +54,7 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
+  * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
 * [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
