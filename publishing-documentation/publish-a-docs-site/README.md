@@ -38,3 +38,23 @@ Admins can manage site permissions directly from a docs site.
 From the site’s **Overview** page, click **Share** in the top-right corner. You can also open **Settings** > **General** and click **Access** > **Manage permissions**.
 
 You can also manage these settings from [Site settings](../site-settings.md).
+
+Setting a permission level on a site, for everyone, a team, or an individual user, determines their ability to administer or view the site. When spaces within the site are set to _**Inherited**_ mode, these permissions are also propagated to those spaces.
+
+The table below summarizes how each role maps to permissions on the site and how it propagates to spaces in _**Inherited**_ mode.
+
+| Permission level for spaces | Permissions on the site |
+| --------------------------- | ----------------------- |
+| Administrator               | Edit and see            |
+| Creator                     | See                     |
+| Reviewer                    | See                     |
+| Editor                      | See                     |
+| Commenter                   | See                     |
+| Viewer                      | See                     |
+| No access                   | Cannot see              |
+
+{% hint style="info" %}
+Spaces in _**Inherited**_ mode inherit permissions from the organization or their parent collection, along with the site permissions and any local overrides.
+
+Each member is assigned the highest role they have across these permission sources.
+{% endhint %}
