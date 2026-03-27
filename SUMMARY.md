@@ -110,6 +110,7 @@
 * [Site structure](publishing-documentation/site-structure/README.md)
   * [Site sections](publishing-documentation/site-structure/site-sections.md)
   * [Content variants](publishing-documentation/site-structure/variants.md)
+  * [Multilingual sections](publishing-documentation/site-structure/multilingual-sections.md)
 * [Site customization](publishing-documentation/customization/README.md)
   * [Icons, colors, and themes](publishing-documentation/customization/icons-colors-and-themes.md)
   * [Layout and structure](publishing-documentation/customization/layout-and-structure.md)

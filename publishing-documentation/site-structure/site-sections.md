@@ -38,6 +38,8 @@ You can group site sections together under a single heading. Site section groups
 
 To create a group, click the arrow next to the **New section** button and choose **New section group**. Give your new group a name, then click **Add section** in the modal to add sections to your group. You can add existing sections of your site to the new group, or select another space you want to add using the menu.
 
+If your site supports multiple languages, you can also translate section group titles, along with section titles and descriptions. See [Multilingual sections](multilingual-sections.md).
+
 ### Editing a section
 
 You can change the name, icon and slug of each of your sections by tapping the <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> **Edit** button in the table row of the section you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button. You can also delete the variant by clicking the **Delete variant** button in the lower left.
@@ -47,6 +49,8 @@ Changing a section’s slug will change its canonical URL. GitBook will create a
 {% endhint %}
 
 Site sections within a group can also optionally display a description, which will appear in the drop-down menu of your site’s nav bar when the section group is hovered. See the image at the top of this page to see an example of how this can look in your published documentation.
+
+If your site supports multiple languages, you can translate section titles and descriptions so they match the reader’s selected language. See [Multilingual sections](multilingual-sections.md).
 
 ### Reordering sections
 
