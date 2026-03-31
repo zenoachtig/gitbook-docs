@@ -1,6 +1,6 @@
 - tag: beta
   label: Beta
-  icon: flask
+  icon: flask-round-potion
 - tag: pro
   label: Pro feature
   icon: square-plus
@@ -10,3 +10,6 @@
 - tag: early-access
   label: Early access
   icon: lock
+- tag: add-on
+  label: Add-on
+  icon: money-bills

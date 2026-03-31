@@ -22,7 +22,7 @@ We've made some changes to our plans to simplify publishing and better align fea
 
 | **Feature**             | **Plan Required**   |
 | ----------------------- | ------------------- |
-| AI Search               | Premium or Ultimate |
+| AI Search               | Ultimate            |
 | PDF Export              | Premium or Ultimate |
 | Search Insights         | Premium or Ultimate |
 | Custom Domains          | Premium or Ultimate |

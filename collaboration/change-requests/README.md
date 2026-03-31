@@ -21,7 +21,7 @@ To start editing content, you’ll need to start by creating a change request. C
 
 * By [pressing the **Edit** button in the top right corner](change-requests-in-a-space.md#creating-a-change-request) when viewing a space
 * By [implementing a new change request with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.md)
-* [Automatically by GitBook Agent](../../gitbook-agent/automatic-documentation-suggestions/)
+* [Automatically by GitBook Agent](/broken/pages/zuuDoIkzNmXS3fXZv3PG)
 {% endstep %}
 
 {% step %}

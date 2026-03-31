@@ -11,7 +11,7 @@ When viewing your live docs site, you may see a toolbar appear at the bottom of 
 * Open the editor to view and edit your site’s content
 * Open your site’s settings in GitBook
 * Open your site’s customization settings
-* View your site’s insights
+* Open site analytics
 
 {% hint style="warning" %}
 The toolbar is **only visible to logged-in members of your GitBook organization**. Site visitors who are not members of your GitBook organization **will not see the toolbar**.

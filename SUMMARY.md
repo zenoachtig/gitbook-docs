@@ -67,9 +67,6 @@
 ## GitBook Agent
 
 * [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
-* [Automatic documentation suggestions](gitbook-agent/automatic-documentation-suggestions/README.md)
-  * [Connecting a source](gitbook-agent/automatic-documentation-suggestions/connecting-a-source.md)
-  * [Exploring your data](gitbook-agent/automatic-documentation-suggestions/exploring-your-data.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
 * [Translations](gitbook-agent/translations.md)
@@ -122,7 +119,11 @@
   * [Configuring a subdirectory with Vercel](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md)
   * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md)
 * [Site settings](publishing-documentation/site-settings.md)
-* [Site insights](publishing-documentation/insights.md)
+* [Site analytics](publishing-documentation/insights.md)
+* [Site insights](publishing-documentation/site-insights.md)
+* [Agent audit](publishing-documentation/agent-audit.md)
+* [Connections](publishing-documentation/connections.md)
+* [Channels](publishing-documentation/channels.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
 * [Authenticated access](publishing-documentation/authenticated-access/README.md)
   * [Enabling authenticated access](publishing-documentation/authenticated-access/enabling-authenticated-access.md)

@@ -14,7 +14,7 @@ The Agent can do everything from write small sections of text on your page, to e
 {% hint style="info" %}
 ### GitBook Agent follows your style guide
 
-You can [add your own style guide and custom instructions](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) at an organization level — so the Agent will always match your tone and style whenever you ask it to help.
+You can [add your own style guide and custom instructions](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) at a site level — so the Agent will always match your tone and style whenever you ask it to help.
 {% endhint %}
 
 ### What can GitBook Agent do?
@@ -86,7 +86,7 @@ From the Improve menu, you can tell the Agent to:
 * Link to related topics and pages
 * Divide the single page into multiple pages
 
-The first two options are conditional — they change based on your page content. So if your page already has an icon and description, you won’t see those choices in the menu.
+The first two options are conditional — they change based on your page content. So if your page already has an icon and description, you won’t see those choices in the menu.
 
 Select any option and the Agent will instantly get to work on your task.
 

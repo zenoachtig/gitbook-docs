@@ -22,23 +22,23 @@ GitBook Agent can:
 * **Write docs based on a prompt:** Ask the Agent to update a page with the latest information, replace every mention of a product name with a new name, or anything else you need.
 * **Import content into GitBook:** Attach files like PDFs, Microsoft Word documents and more in the Agent chat sidebar. The Agent can extract and format the content into pages in your space.
 * **Ideate and implement bigger changes:** Describe what you need and the Agent will open a change request, explain its planned edits, respond to your feedback, and then implement the plan you’ve created together.
-* **Understand your style guide:** Add your style guide into your org’s settings and it will always apply it when writing or reviewing content.
-* **Follow custom, organization-level instructions:** Give the Agent specific instructions at an organization level, such as adding links in specific ways, or avoiding specific block types.
+* **Understand your style guide:** Add your style guide in your site settings and the Agent will apply it when writing or reviewing content.
+* **Follow custom, site-level instructions:** Give the Agent specific instructions for a site, such as adding links in specific ways, or avoiding specific block types.
 * **Translate your documentation:** Choose the content you want to translate, select a language and the Agent will do the work of localizing your docs.
 * **Summon from a comment:** Add a comment to any block on your page, type @gitbook and tell the Agent what you need.
 * **Review change requests:** Add the Agent as a reviewer on your change request. It can act as a docs linter, identifying or fixing errors, suggesting improvements and flagging style guide deviations.
 
 #### Automatic documentation suggestions
 
-The Agent can also connect to the same signals your team uses to understand your product and what your users need: support conversations, tickets, and threads from your connected tools.
-
-With this context, the Agent can proactively identify gaps, propose updates and generate docs changes automatically. So your docs can evolve with your product, and your users always get the right information when and where they need it.
-
-{% hint style="info" %}
+{% hint style="warning" %}
 **Automatic docs suggestions are in early access**
 
-Head to **Organization Settings → GitBook Agent** to request access.
+Head to [agent-audit.md](../publishing-documentation/agent-audit.md "mention") to learn more.
 {% endhint %}
+
+The Agent can also connect to the same signals your team uses to understand your product and what your users need: support conversations, tickets, and threads from your connected tools.
+
+With this context, the Agent can proactively identify gaps, propose updates and generate docs changes automatically. So as your docs evolve with your product, your users always get the right information when and where they need it.
 
 ### Explore GitBook Agent’s features
 
@@ -46,9 +46,9 @@ Head to **Organization Settings → GitBook Agent** to request access.
 
 ### Add a style guide and custom instructions
 
-You can configure GitBook Agent by adding your team’s style guide or specific instructions on how you’d like it to work with your team. The Agent will use these as context whenever it creates or edits content in your organization.
+You can configure GitBook Agent by adding your team’s style guide or specific instructions on how you’d like it to work on a site. The Agent will use these as context whenever it creates or edits content for that site.
 
-To add a style guide or custom instructions, open your **Organization settings** and then choose the **GitBook Agent** section. Click the **Settings** tab and add your instructions in the text entry field.
+To add a style guide or custom instructions, open your site’s **Settings** and then choose the **Agents** tab. Add your instructions in the custom instructions field.
 
 You can quickly access this screen by opening the GitBook Agent chat window in a change request, then opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choosing **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
@@ -56,8 +56,11 @@ You can quickly access this screen by opening the GitBook Agent chat window in a
 
 Here’s an example of the kind of custom instructions you could add in GitBook Agent’s settings.
 
-<pre data-overflow="wrap"><code><strong>You are a technical writer at Stripe. Use clear, direct language and prioritize accuracy over flourish. For guides, always introduce the concept with a one-sentence summary and break content into well-structured sections. For quickstarts, always use a stepper and keep every step action-first and concise.
-</strong></code></pre>
+{% code overflow="wrap" %}
+```
+You are a technical writer at Stripe. Use clear, direct language and prioritize accuracy over flourish. For guides, always introduce the concept with a one-sentence summary and break content into well-structured sections. For quickstarts, always use a stepper and keep every step action-first and concise.
+```
+{% endcode %}
 
 ### FAQs
 
@@ -85,6 +88,6 @@ GitBook Agent is free for all plans while in beta.
 
 <summary>Can I override the default tone of GitBook Agent’s output?</summary>
 
-Yes, you can override the default personality and tone of GitBook Agent. So if you want more verbose outputs, or for it to follow a specific style or tone, simply tell the Agent — either in the organization-wide instructions, or in an individual prompt in a change request.
+Yes, you can override the default personality and tone of GitBook Agent. So if you want more verbose outputs, or for it to follow a specific style or tone, simply tell the Agent — either in the site-level instructions, or in an individual prompt in a change request.
 
 </details>

@@ -7,7 +7,7 @@ icon: gear
 
 {% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/25_01_06_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 
@@ -21,11 +21,11 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <details>
 
-<summary>Insights cookie</summary>
+<summary>Analytics cookie</summary>
 
-If you want to use GitBook’s [built-in insights](insights.md), your site will use cookies to identify returning visitors and gather the data needed to view those insights.
+If you want to use GitBook’s [site analytics](insights.md), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.
 
-You can choose to disable these cookies, but it will prevent you from using GitBook’s built-in insights.
+You can choose to disable these cookies, but it will prevent you from using site analytics.
 
 </details>
 
@@ -62,6 +62,12 @@ By default, new sites derive permissions from their linked [spaces](../creating-
 Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
 
 </details>
+
+### Agents
+
+{% content-ref url="../gitbook-agent/what-is-gitbook-agent.md" %}
+[what-is-gitbook-agent.md](../gitbook-agent/what-is-gitbook-agent.md)
+{% endcontent-ref %}
 
 ### Audience
 
@@ -123,7 +129,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collabor
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
-You can review the results of these ratings by opening the [**Insights**](insights.md) section of your docs site dashboard and selecting the [**Content scores**](insights.md#content-scores) tab.
+You can review the results of these ratings by opening [site analytics](insights.md) from your docs site dashboard and selecting **Pages & feedback**.
 
 </details>
 
@@ -131,7 +137,7 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 <details>
 
-<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Choose the AI experience <mark style="background-color:purple;">Ultimate</mark></summary>
 
 Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [ai-search.md](ai-search.md "mention") for more info.
 
@@ -144,6 +150,12 @@ Let your site visitors ask GitBook anything with AI search or the GitBook assist
 Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai](ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
 
 </details>
+
+### Connections
+
+{% content-ref url="connections.md" %}
+[connections.md](connections.md)
+{% endcontent-ref %}
 
 ### Structure
 

@@ -3,13 +3,12 @@ description: >-
   Auto-translate your content into multiple languages using GitBook’s AI Agent
   and keep it synced
 icon: earth-americas
+tags:
+  - beta
+  - add-on
 ---
 
 # Translations
-
-{% hint style="warning" %}
-Auto translations are currently in Beta. [Let us know](https://www.gitbook.com/contact) if you have any feedback or encounter any issues.
-{% endhint %}
 
 {% hint style="info" %}
 Only [organization admins](../account-management/member-management/roles.md#admin) can create and access translations, as it’s [a billable feature](translations.md#pricing).
