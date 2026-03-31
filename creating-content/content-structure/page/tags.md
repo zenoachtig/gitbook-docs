@@ -2,10 +2,7 @@
 description: "Tags are reusable labels you can add to pages and update blocks —\_this page tells you how to create, add and manage tags"
 tags:
   - news
-  - experiment
-  - tag: beta
-    primary: true
-  - pro
+  - beta
 ---
 
 # Tags
@@ -13,12 +10,34 @@ tags:
 You can use tags to group related content, convey release states, mark outdated content, or in any other way that helps your readers scan your documentation.
 
 {% hint style="info" %}
-**Note:** Tags are currently in beta as we consider adding more features — including search functionality and color support. If there are specific features you want to see for tags, please [let us know in our GitHub community](https://github.com/GitbookIO/community)!
+**Note:** Tags are currently in beta as we consider adding more features — including search functionality and color support. If there are specific features you want to see for tags, please [let us know in our GitHub community](https://github.com/GitbookIO/community)!
 {% endhint %}
+
+## Tags in Markdown
+
+If you use Git Sync, tags appear in the page frontmatter.
+
+```yaml
+---
+description: "Tags are reusable labels you can add to pages and update blocks — this page tells you how to create, add and manage tags"
+tags:
+  - news
+  - experiment
+  - tag: beta
+    primary: true
+  - pro
+---
+```
+
+Use a string for a standard tag.
+
+Use `primary: true` on one tag to make it the page’s primary tag. GitBook can show that tag in the table of contents.
+
+GitBook keeps the tag order from the list.
 
 ## Tag a page
 
-Open the page, then open **Page options** — accessible by hovering over the page title — and add one or more tags. You can drag tags around to change the order in which they appear on the page.
+Open the page, then open **Page options** — accessible by hovering over the page title — and add one or more tags. You can drag tags around to change the order in which they appear on the page.
 
 ### Show or hide tags on a page
 
