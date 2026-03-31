@@ -5,10 +5,6 @@ icon: chart-line-up
 
 # Site analytics
 
-{% hint style="info" %}
-Site analytics has been renamed from site insights.
-{% endhint %}
-
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 Site analytics gives you information on the content you’ve published and how it performs. It’s split into different sections — **Traffic**, **Pages & feedback**, **Agent and LLMs**, **Search**, **Ask AI**, **Links**, **MCP**, and **OpenAPI**.

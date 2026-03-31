@@ -120,7 +120,7 @@
   * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md)
 * [Site settings](publishing-documentation/site-settings.md)
 * [Site analytics](publishing-documentation/insights.md)
-* [Site insights](publishing-documentation/site-insights.md)
+* [AI insights](publishing-documentation/ai-insights.md)
 * [Agent audit](publishing-documentation/agent-audit.md)
 * [Connections](publishing-documentation/connections.md)
 * [Channels](publishing-documentation/channels.md)

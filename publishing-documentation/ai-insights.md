@@ -1,21 +1,21 @@
 ---
 description: >-
-  Understand what your visitors are interested in, and how your content covers
-  it
+  See what your users are actually asking GitBook Assistant — and identify
+  knowledge gaps where your docs fall short
 icon: thumbs-up
 tags:
   - add-on
 ---
 
-# Site insights
+# AI insights
 
-AI Insights shows what your visitors are asking and how effectively your content responds. It tracks questions answered through  [GitBook Assistant](gitbook-ai-assistant.md).
+AI insights shows what your visitors are asking and how effectively [GitBook Assistant](gitbook-ai-assistant.md) responds using your content.
 
-To open AI Insights, go to **Settings → Insights**.
+To open AI insights, click on **Insights** from your site’s overview.
 
-#### Site insights dashboard
+#### AI insights dashboard
 
-The site insights dashboard gives you a snapshot of your site through four key metrics:
+The AI insights dashboard gives you a snapshot of your site through four key metrics:
 
 * **Savings:** Estimated effort saved through questions answered by GitBook Assistant
 * **Questions:** The unique questions asked by visitors
@@ -24,13 +24,13 @@ The site insights dashboard gives you a snapshot of your site through four key m
 
 Click any topic to open the topic detail view.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights@2x.png" alt=""><figcaption><p>Site insights screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_site_insights@2x.png" alt=""><figcaption><p>AI insights screen.</p></figcaption></figure>
 
 ### Topics
 
 The **Topics** view shows how individual topics perform over time and lists the questions related to each one.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights_topic@2x.png" alt=""><figcaption><p>Topic detail view in site insights.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_site_insights_topic@2x.png" alt=""><figcaption><p>Topic detail view in AI insights.</p></figcaption></figure>
 
 #### Questions in this topic
 
@@ -44,7 +44,7 @@ The **Questions** view shows how GitBook Assistant handled an individual visitor
 
 When you click a question, the detail view opens. At the top of the screen, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights_question@2x.png" alt=""><figcaption><p>Question detail view in site insights.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_site_insights_question@2x.png" alt=""><figcaption><p>Question detail view in AI insights.</p></figcaption></figure>
 
 #### Conversations and answer quality
 
@@ -52,17 +52,17 @@ Below the summary, you can review the conversations tied to the question and see
 
 #### Sources and context
 
-The sources section shows which pages, records, or [connected content ](connections.md)GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren't surfaced.
+The sources section shows which pages, records, or [connected content](connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren't surfaced.
 
 ### FAQ
 
 <details>
 
-<summary><strong>How do I use Insights?</strong></summary>
+<summary><strong>How do I use AI insights?</strong></summary>
 
-Insights give your team an overview of how visitors interact with your documentation when searching for answers.
+AI insights gives your team an overview of how visitors interact with your documentation when searching for answers.
 
-Filtering your insights helps you identify content gaps. You can filter for:
+Filtering AI insights helps you identify content gaps. You can filter for:
 
 * The questions visitors ask most often
 * Questions visitors search for that don't have answers
@@ -73,7 +73,7 @@ Addressing these gaps helps visitors find answers more quickly — and understan
 {% hint style="info" %}
 Coming soon: We’re working on features to help your team fix your content gaps automatically, through [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
 
-See [agent-audit.md](agent-audit.md "mention")to learn more.
+See [agent-audit.md](agent-audit.md "mention") to learn more.
 {% endhint %}
 
 </details>
