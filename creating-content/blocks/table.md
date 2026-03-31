@@ -4,9 +4,9 @@ description: Keep information organized and make documenting data easier with ta
 
 # Tables
 
-You can add tables to better organize your information in a GitBook page.
+You can add tables to better organize your information in a GitBook page. You can see a sample of what is possible in the example table below:
 
-<table data-full-width="false"><thead><tr><th>Company</th><th>Status<select><option value="36bef47f343d4588bc43db3e5c701796" label="In progress" color="blue"></option></select></th><th>Contact</th><th>MRR</th><th data-hidden>Contact</th><th data-hidden>MRR</th><th data-hidden>Status<select><option value="3e7a52c673ec4a01992566d18271f7a5" label="In progress" color="blue"></option><option value="2362fd3eafc7476fb8646ac754f34b72" label="Done" color="blue"></option></select></th></tr></thead><tbody><tr><td><strong>Ace AI</strong> – Design</td><td><span data-option="36bef47f343d4588bc43db3e5c701796">In progress</span></td><td><a href="mailto:noreply@gitbook.com">rena@ace.ai</a></td><td>$450</td><td><a href="mailto:noreply@gitbook.com">rena@ace.ai</a></td><td>$420</td><td><span data-option="3e7a52c673ec4a01992566d18271f7a5">In progress</span></td></tr><tr><td><strong>Discrete Data</strong> – API</td><td></td><td><a href="mailto:noreply@gitbook.com">dave@dd.inc</a></td><td>$100</td><td><a href="mailto:noreply@gitbook.com">dave@dd.inc</a></td><td>$69</td><td></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Company</th><th>Status<select><option value="36bef47f343d4588bc43db3e5c701796" label="In progress" color="blue"></option></select></th><th>Contact</th><th>MRR</th><th data-hidden>Contact</th><th data-hidden>MRR</th><th data-hidden>Status<select><option value="3e7a52c673ec4a01992566d18271f7a5" label="In progress" color="blue"></option><option value="2362fd3eafc7476fb8646ac754f34b72" label="Done" color="blue"></option></select></th></tr></thead><tbody><tr><td><strong>Ace AI</strong> – Design</td><td><span data-option="36bef47f343d4588bc43db3e5c701796">In progress</span></td><td><a href="mailto:noreply@gitbook.com">rena@ace.ai</a></td><td>$450</td><td><a href="mailto:noreply@gitbook.com">rena@ace.ai</a></td><td>$420</td><td><span data-option="3e7a52c673ec4a01992566d18271f7a5">In progress</span></td></tr><tr><td><strong>Discrete Data</strong> – API</td><td><span data-option="36bef47f343d4588bc43db3e5c701796">In progress</span></td><td><a href="mailto:noreply@gitbook.com">dave@dd.inc</a></td><td>$100</td><td><a href="mailto:noreply@gitbook.com">dave@dd.inc</a></td><td>$69</td><td></td></tr><tr><td><strong>Example Co</strong></td><td></td><td><a href="mailto:pete@example.com">pete@example.com</a></td><td>$50</td><td></td><td></td><td></td></tr></tbody></table>
 
 ### Table block options
 
@@ -15,7 +15,8 @@ When you open the Options menu to the left of a table block, you’ll have a num
 * **Table/Cards:** Choose to display your data as either a table block or [a cards block](cards.md). GitBook populates both these blocks using the same data, so you can switch between them depending on the look and design you want.
 * **Add column:** Add a new column to the right of your table. You can choose column type using the menu, or just click **Add column** to add a text column.
 * **Insert row:** Add a new row to the bottom of your table.
-* **Show header:** Hide or show the top totle row of your table. Depending on the data you’re display, you may not need a title row in your table, so you can disable it here.
+* **Show header:** Hide or show the top title row of your table.
+* **Freeze header:** Keep the top row of your table visible on the page while you scroll through the rows below. This is useful for larger tables where you want the column titles to stay in view.
 * **Reset column sizing:** If you’ve changed the column widths, this will reset them all to be equal again.
 * **Visible columns:** Choose which columns are visible and which are hidden. If you have hidden columns in your table, this menu is where you can make them visible again.
 * **Full width:** Make your table span the full width of your window. This is great for tables with lots of columns.
