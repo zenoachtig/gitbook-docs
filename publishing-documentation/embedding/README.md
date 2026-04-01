@@ -37,7 +37,11 @@ If you want to use the Assistant tab, [GitBook Assistant must be enabled](../git
 {% step %}
 **Implementation**
 
-Pick the approach that matches your setup:
+Use our skill to quickly implement GitBook Assistant into your product using your existing stack.
+
+{% file src="../../.gitbook/assets/GITBOOK_ASSISTANT_SKILL.md" %}
+
+Alternatively, continue reading through the docs for the approach that matches your setup:
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-code">:code:</i></h4></td><td><strong>Standalone script tag</strong></td><td>Drop in a &#x3C;script> tag for the fastest setup, then customize its appearance</td><td><a href="implementation/script.md">script.md</a></td></tr><tr><td><h4><i class="fa-box">:box:</i></h4></td><td><strong>Node.js/NPM</strong></td><td>Install via NPM for server-side rendering or build-time control</td><td><a href="implementation/nodejs.md">nodejs.md</a></td></tr><tr><td><h4><i class="fa-react">:react:</i></h4></td><td><strong>React component</strong></td><td>Use prebuilt React components for seamless integration</td><td><a href="implementation/react.md">react.md</a></td></tr></tbody></table>
 
