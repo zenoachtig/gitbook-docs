@@ -1,5 +1,5 @@
 ---
-description: Apply for our Open Source plan in GitBook.
+description: Apply for our Open Source plan in GitBook
 ---
 
 # Community plan

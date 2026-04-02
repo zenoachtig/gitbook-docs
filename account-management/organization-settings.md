@@ -4,13 +4,17 @@ icon: sitemap
 
 # Organization settings
 
-View and manage the settings for your GitBook organization. These include member management, sign-in methods, integrations, billing and plans.
+{% hint style="info" %}
+Only Admins in an organization can access organization settings.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/10_01_25_organization_settings.svg" alt="A GitBook screenshot showing the organization settings page"><figcaption><p>Your organization settings page.</p></figcaption></figure>
+View and manage the settings for your GitBook organization. These include member management, sign-in methods, merge rules, billing and plans.
+
+<figure><img src="../.gitbook/assets/22_01_06_organization_settings@2x.png" alt="A GitBook screenshot showing the organization settings page"><figcaption><p>Your organization settings page.</p></figcaption></figure>
 
 ### How to access the settings for an organization
 
-Click on the **settings** icon, then click on **\[organization name] settings**. This will take you to the general tab of that organization’s settings page, and you’ll see additional tabs containing further settings on the left-hand side.
+Click on your organization’s name in the top-left corner of the app, then click on **Settings**. This will take you to the general tab of that organization’s settings page, and you’ll see additional tabs containing further settings on the left-hand side.
 
 <details>
 

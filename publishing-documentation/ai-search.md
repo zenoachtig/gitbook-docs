@@ -15,11 +15,11 @@ GitBook sites offer different search experiences depending on what you want for 
 
 * **Keyword search** – A standard search experience based on keywords. Automatically enabled on all sites.
 * **GitBook AI search** – Users get short answers to questions directly from the search box.
-* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook’s AI agent. Head to [GitBook Assistant](gitbook-ai-assistant/) to learn more.
+* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook's AI agent. Head to [GitBook Assistant](gitbook-ai-assistant.md) to learn more.
 
 To choose your site’s search experience, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose your preferred experience.
 
-<figure><img src="../.gitbook/assets/29_07_25_search_ai.svg" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_search_ai@2x.png" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
 
 {% hint style="warning" %}
 When GitBook Assistant is enabled, AI search is disabled. Standard keyword searches will always provide the results in the search bar no matter which experience you choose.
@@ -36,7 +36,7 @@ If your docs site has multiple [sections](site-structure/site-sections.md), the 
 ## GitBook AI search
 
 {% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
+This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
 {% endhint %}
 
 GitBook AI search offers basic AI-powered answers in the **Search and find…** bar of your site. It’s trained on the content of your docs site, but cannot pull in information from external sources.
@@ -56,5 +56,5 @@ Multi-space search is only available when viewing published spaces that live as 
 {% endhint %}
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-* Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
+* Click the **GitBook Assistant** ![](../.gitbook/assets/25_07_16_gitbook_assistant_1.svg) button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.

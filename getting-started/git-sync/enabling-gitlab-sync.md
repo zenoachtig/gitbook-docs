@@ -8,7 +8,7 @@ description: Set up and authorize the GitLab integration for GitBook
 
 In the space you want to sync with your GitLab repo, head to the space menu in the top right, and select **Synchronize with Git**. From the provider list, select **GitLab Sync**, and click **Configure**.
 
-<figure><img src="../../.gitbook/assets/10_01_25_git_sync-gitlab.svg" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_1.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
 ### Generate and enter your API access token
 
@@ -46,12 +46,12 @@ For many GitLab repositories, the `main` branch might be automatically set to pr
 
 When syncing for the first time, you’ll have the option to sync in one of two directions:
 
-1. Git<mark style="color:red;">**Book**</mark> -> Git**Lab** will sync your space’s content **to** the selected branch. This is great if you’re starting from an empty repository and want to get your GitBook content in quickly.
-2. Git**Lab** -> Git<mark style="color:red;">**Book**</mark> will sync your space’s content **from** the selected branch. This is great if you have existing markdown content in a repository and want to bring it into GitBook.
+1. GitBook -> GitLab will sync your space’s content **to** the selected branch. This is great if you’re starting from an empty repository and want to get your GitBook content in quickly.
+2. GitLab -> GitBook will sync your space’s content **from** the selected branch. This is great if you have existing markdown content in a repository and want to bring it into GitBook.
 
 ### Write and commit
 
-You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests.md) in GitBook.
+You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests/) in GitBook.
 
 When you edit on GitBook, every change request merge will result in a commit to your selected GitLab branch.
 

@@ -1,19 +1,19 @@
 ---
-description: View analytics and insights related to your published documentation’s traffic
+description: View analytics related to your published documentation’s traffic and usage
 icon: chart-line-up
 ---
 
-# Site insights
+# Site analytics
 
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
-Insights give you information on the content you've published and how it performs. It's split up between different sections — **Traffic**, **Pages & feedback**, **Search**, **Ask AI**, **Links**, and **OpenAPI**.
+Site analytics gives you information on the content you’ve published and how it performs. It’s split into different sections — **Traffic**, **Pages & feedback**, **Agent and LLMs**, **Search**, **Ask AI**, **Links**, **MCP**, and **OpenAPI**.
 
-You can see a top-level overview of your insights on the **Overview** tab of your site’s dashboard, with a globe that shows views in the last hour by location.
+You can see a top-level overview of your analytics on the **Overview** tab of your site’s dashboard, with a globe that shows views in the last hour by location.
 
-Click the **Insights** tab in the site header to find more detailed insights for your site.
+Click **Analytics** in the site header to open site analytics for your site.
 
-<figure><img src="../.gitbook/assets/18_07_25_publishing-documentation-advanced-site-insights.svg" alt="A GitBook screenshot showing the site insights dashboard"><figcaption><p>The site insights dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 
@@ -23,13 +23,13 @@ By combining filters and groups, you can drill down in to precise analytics data
 
 ### View by custom time periods
 
-You can use the drop-down menu on the right of the Insights screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.&#x20;
+You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1.svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
 
-To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/calendar-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/calendar.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
+To view the data over a custom time period, click **Custom range** to choose your custom time period in the calendar.
 
 ### Types of data
 
-The Insights tab is split into six sections, each focused on a specific data type.
+Site Analytics is split into seven sections, each focused on a specific data type.
 
 #### Traffic
 
@@ -38,7 +38,7 @@ GitBook tracks page views to help you understand the popularity and reach of you
 Page views are critical for assessing the effectiveness of your content strategy and optimizing your documentation based on user interest. It’s split up between different views and profiles, including countries, languages, browsers, and more.
 
 {% hint style="success" %}
-Throughout the insights tab you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.
+Throughout Site Analytics, you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.
 
 In the context of page views, Events would be total amount of page views, and Visitors would be the count of distinct users performing a page view.
 {% endhint %}
@@ -53,8 +53,14 @@ You can also see a list of comments left from visitors who rate your pages, to g
 
 {% hint style="info" %}
 **Why can’t I see any feedback data for my site?**\
-We only display data for published sites with page ratings enabled. If your site is not published or does not have page ratings enabled, you won’t see any insights.
+We only display data for published sites with page ratings enabled. If your site is not published or does not have page ratings enabled, you won’t see any analytics data.
 {% endhint %}
+
+#### Agent & LLMs
+
+Track traffic from LLMs, coding agents, and bots.
+
+This view shows requests to `llms.txt`, `llms-full.txt`, and Markdown pages. You can also review which agents access your content most often.
 
 #### Broken URLs
 
@@ -83,3 +89,7 @@ GitBook tracks links to help you understand how users interact with external res
 The [OpenAPI](../api-references/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.
 
 It tracks interactions such as endpoint views, parameter searches, and request explorations, helping you understand which parts of your API are most accessed and where users may need more clarity. These insights enable you to refine your documentation, improve developer experience, and ensure your API content is effectively meeting user needs.
+
+#### MCP
+
+See how your site content is being accessed through [MCP](mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.

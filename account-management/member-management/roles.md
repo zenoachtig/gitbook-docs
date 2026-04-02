@@ -13,20 +13,30 @@ See our documentation on [**permissions and inheritance**](permissions-and-inher
 Roles are how you define the level of access and control that members have over content (and the organization, in the case of admins).
 
 {% hint style="warning" %}
-Regardless of role, _**every**_ _**single member**_ of an organization _**counts towards**_ the total number of members for _**billing**_ purposes.\
+Regardless of role, _**every**_ _**single member**_ of an organization _**counts toward**_ the total number of members for _**billing**_ purposes.\
 \
 You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
 
-Each role gets progressively higher levels of access as you move up the list. This list starts at the lowest access level, with extra features above the previous access level highlighted in bold.
+Each role gets progressively higher levels of access as you move up the list. Let’s start at the lowest access and work our way up:
+
+<details>
+
+<summary>Guest role</summary>
+
+The guest role is a very specific role in GitBook. Guests are members that have **no default organization role**. A guest acts as a standard user in every other regard, they just need to have their permissions set explicitly at a content level.
+
+Inviting a guest to the organization means that they’ll only ever see content they’ve been directly added to. This is great if you want to add external stakeholders or contractors to your organization, but don’t want to worry about giving them access to any content by default.
+
+**Guest members count toward the total number of members in an organization for billing purposes.**
+
+</details>
 
 <details>
 
 <summary>Reader</summary>
 
-A reader is the most basic role in GitBook. Readers get read-only access, so they can:
-
-* Read content in your organization.
+A reader is the most basic role in GitBook: it gives read-only access.
 
 **Reader seats are paid for organizations on all plans**.&#x20;
 
@@ -36,14 +46,9 @@ A reader is the most basic role in GitBook. Readers get read-only access, so the
 
 <summary>Commenter</summary>
 
-Commenters can:
+Commenters have the same read-only access as readers, but they’re also able to leave comments against content and spaces (find out more about how that works in our [comments](../../collaboration/comments.md) documentation).
 
-* Read content in your organization (read-only access).
-* **Leave** [**comments**](../../collaboration/comments.md) **on your organization’s content within** [**spaces**](../../creating-content/content-structure/space.md)**.**
-
-{% hint style="info" %}
-Commenter is one of our two advanced member roles, available only on the Pro or Enterprise plan.
-{% endhint %}
+**Commenter is one of our two advanced member roles, available only on the Pro or Enterprise plan.**
 
 </details>
 
@@ -51,15 +56,7 @@ Commenter is one of our two advanced member roles, available only on the Pro or 
 
 <summary>Editor</summary>
 
-Editors can:
-
-* Read content in your organization.
-* Leave [comments](../../collaboration/comments.md) on your organization’s content within [spaces](../../creating-content/content-structure/space.md).
-* **Directly edit spaces that have** [**live edits**](../../collaboration/live-edits.md) **unlocked.**&#x20;
-* **Create** [**change requests**](../../collaboration/change-requests.md) **to edit spaces with** [**locked live edits**](../../collaboration/live-edits.md)**.**
-* [**Request a review**](../../collaboration/change-requests.md#request-a-review-on-a-change-request) **on a change request.**
-
-Editors **cannot** merge change requests.
+Editors are able to read and comment, just like a commenter, but they’re also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../collaboration/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../collaboration/change-requests/). Editors cannot merge change requests.
 
 </details>
 
@@ -67,18 +64,9 @@ Editors **cannot** merge change requests.
 
 <summary>Reviewer</summary>
 
-Reviewers have all the same permissions as an editor, with one important addition — the ability to merge change requests. Reviewers can:
+Reviewers have all the same permissions as an editor however, they can also merge their own and others’ change requests.
 
-* Read content in your organization.
-* Leave [comments](../../collaboration/comments.md) on your organization’s content within [spaces](../../creating-content/content-structure/space.md).
-* Directly edit spaces that have [live edits](../../collaboration/live-edits.md) unlocked.&#x20;
-* Create [change requests](../../collaboration/change-requests.md) to edit spaces with [locked live edits](../../collaboration/live-edits.md).
-* [Request a review](../../collaboration/change-requests.md#request-a-review-on-a-change-request) on a change request.
-* **Review and merge change requests.**
-
-{% hint style="info" %}
-Reviewer is one of our two advanced member roles, available only on the Pro or Enterprise plan.
-{% endhint %}
+**Reviewer is one of our two advanced member roles, available only on the Pro or Enterprise plan.**
 
 </details>
 
@@ -86,47 +74,39 @@ Reviewer is one of our two advanced member roles, available only on the Pro or E
 
 <summary>Creator</summary>
 
-Creators are essentially content-level admins. Creators can:
+Creators are essentially content-level admins. They have all the same permissions as a reviewer, however they can also create and delete spaces, collections and sites, merge change requests and manage permissions at a content level.&#x20;
 
-* Read content in your organization.
-* Leave [comments](../../collaboration/comments.md) on your organization’s content within [spaces](../../creating-content/content-structure/space.md).
-* Directly edit spaces that have [live edits](../../collaboration/live-edits.md) unlocked.&#x20;
-* Create [change requests](../../collaboration/change-requests.md) to edit spaces with [locked live edits](../../collaboration/live-edits.md).
-* [Request a review](../../collaboration/change-requests.md#request-a-review-on-a-change-request) on a change request.
-* Review and merge change requests.
-* **Create, manage and delete spaces,** [**collections**](../../creating-content/content-structure/collection.md) **and** [**docs sites**](../../publishing-documentation/publish-a-docs-site/)**.**
-* **Manage** [**permissions**](permissions-and-inheritance.md) **at a content level.**
+If a creator is also a creator or admin in another GitBook organization, they have the ability to [move content between organizations](../../creating-content/content-structure/space.md#move-a-space).
 
 </details>
 
 <details>
 
-<summary>Administrator</summary>
+<summary>Admin</summary>
 
-Admins are like super-users for your organization — they have full access! Admins can:
+An admin is like a super-user for your organization — they have full access! Set someone as an admin if you’re comfortable with them making changes that can impact billing, managing members, and generally just being in control of all areas of the organization.&#x20;
 
-* Read content in your organization.
-* Leave [comments](../../collaboration/comments.md) on your organization’s content within [spaces](../../creating-content/content-structure/space.md).
-* Directly edit spaces that have [live edits](../../collaboration/live-edits.md) unlocked.&#x20;
-* Create [change requests](../../collaboration/change-requests.md) to edit spaces with [locked live edits](../../collaboration/live-edits.md).
-* [Request a review](../../collaboration/change-requests.md#request-a-review-on-a-change-request) on a change request
-* Review and merge change requests.
-* Create, manage and delete spaces, [collections](../../creating-content/content-structure/collection.md) and [docs sites](../../publishing-documentation/publish-a-docs-site/).
-* Manage [permissions](permissions-and-inheritance.md) at a content level.
-* **Manage member roles within the organization.**
-* **Access billing settings for updates to payment details.**
-* **Control organization settings and configuration.**
-
-Set someone as an admin if you’re comfortable with them making changes that can impact billing, managing members, and generally just being in control of all areas of the organization.
+If an admin is also a creator or admin in another GitBook organization, they have the ability to [move content between organizations](../../creating-content/content-structure/space.md#move-a-space).
 
 </details>
 
-### The guest role
+### The Reader role vs public docs readers
 
-The guest role is a very specific role in GitBook with permissions set at a content level.
+The Reader role is an invited, paid seat in your organization. Public docs readers don’t need an invite and don’t use paid seats.&#x20;
 
-[Inviting a guest](../../collaboration/share.md#invite-someone-from-outside-your-organization) is great if you want to share only specific content with external stakeholders or contractors for review or feedback, without giving them access to any other content in your organization.
+#### Reader role (organization member)
 
-Guests members have **no default organization role**. That means they won’t be able to access any content in your organization, unless it’s directly shared with them. A guest acts as a standard user in every other regard, but with permissions set at a content level.
+The Reader role is a member of your organization who:
 
-**Please note that guest members, as with all other members, count towards the total number of members in an organization for billing purposes.**
+* Has been invited
+* Consumes a paid seat
+* Can access published and unpublished content _they have permission for_.
+
+#### Public docs reader (site visitor)
+
+A public docs reader is someone who:
+
+* Is not a member of your organization
+* Doesn’t need an invite
+* Doesn’t consume a paid seat
+* Can only access what’s published on the docs site.

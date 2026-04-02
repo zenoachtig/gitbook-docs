@@ -1,5 +1,5 @@
 ---
-description: Set up a custom login screen for visitors to your docs.
+description: Set up a custom login screen for visitors to your docs
 ---
 
 # Setting up a custom backend
@@ -111,7 +111,7 @@ For instance, if your login screen is located at `https://example.com/login`, yo
 
 You can configure this fallback URL within your site’s audience settings under the "Authenticated access" tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt="A GitBook screenshot showing where to configure a fallback URL"><figcaption><p>Configure a fallback URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a fallback URL"><figcaption><p>Configure a fallback URL</p></figcaption></figure>
 
 When redirecting to the fallback URL, GitBook includes a `location` query parameter to the fallback URL that you can leverage in your handler to redirect the user to the original location of the user:
 
@@ -180,8 +180,6 @@ res.redirect(redirectURL);
 ```
 
 ### 5. Configure your backend for adaptive content (optional)
-
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
 
 To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
 
