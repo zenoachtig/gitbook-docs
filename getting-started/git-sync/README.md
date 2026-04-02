@@ -7,7 +7,7 @@ icon: code-pull-request
 
 # GitHub & GitLab Sync
 
-<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_2.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_git_sync.svg" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
 
 ### Overview
 
@@ -18,7 +18,3 @@ Git Sync is bi-directional, so changes you make directly in GitBook’s editor a
 {% hint style="info" %}
 Only [administrators and creators](../../account-management/member-management/roles.md) can enable and configure Git Sync.
 {% endhint %}
-
-### skill.md
-
-When working on your docs locally with Git Sync, you can use GitBook's [skill.md file](../../creating-content/ai-coding-assistants-and-skillmd.md) to provide an AI coding assistant with context about GitBook's blocks, features, and best practices.&#x20;

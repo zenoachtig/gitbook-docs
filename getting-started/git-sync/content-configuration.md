@@ -88,24 +88,26 @@ The summary markdown file is **a mirror of the** **table of contents** of your G
 Because of this, it’s not possible to reference the same Markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook space.
 {% endhint %}
 
-#### Table of contents (sidebar) titles <a href="#sidebar-titles" id="sidebar-titles"></a>
+### ​Redirects <a href="#redirects" id="redirects"></a>
 
-If you want your pages to have a different title in the table of contents sidebar than on the page itself, you can define an optional **page link title** in your `SUMMARY.md` file.
+Redirects allow you to define redirects in your `.gitbook.yaml` configuration file. The path is relative to the “root” option. For example, here’s how you can tell GitBook to redirect users accessing a past url `/help` to a new url `/support`
 
-If you’re using Git Sync, the page link title is set on the page link:
+{% code title=".gitbook.yaml" %}
+```yaml
+root: ./
 
-{% code title="./SUMMARY.md" %}
-```markdown
-# Summary
-
-* [Page main title](page.md "Page link title")
+redirects:
+  help: support.md
 ```
 {% endcode %}
 
-The text inside the quotes (`"Page link title"`) will be used:
+{% hint style="info" %}
+Redirects you define in a space’s configuration file are scoped to the corresponding space. We recommend creating [site redirects](../../publishing-documentation/site-redirects.md) for most cases as they apply to the whole site, across spaces.
+{% endhint %}
 
-* In the table of contents (sidebar)
-* In the pagination buttons at the bottom of each page
-* In any relative links you add to that page
+{% hint style="warning" %}
+With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
+{% endhint %}
 
-Page link titles are optional — if you don’t manually add one, GitBook will use the page’s standard title everywhere by default.
+
+

@@ -12,18 +12,18 @@ You can easily monitor all the changes people have made to your content using to
 In the Version history of a space, you can see a list of all the actions that changed the content within it. These include:
 
 * When someone made [live edits](../collaboration/live-edits.md) to the space.
-* When someone merged a [change request](../collaboration/change-requests/).
+* When someone merged a [change request](../collaboration/change-requests.md).
 * When someone performed a [Git Sync](../getting-started/git-sync/) operation.
 
 ### View historical versions of content
 
-To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/25_01_10_history_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_history_icon_light.svg" alt="The Version history icon in GitBook"></picture> button in the [space header](../resources/gitbook-ui/#space-header), or open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> next to the space or change request title and choose **Version history**.
+To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/history_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/history_icon_light.svg" alt="The Version history icon in GitBook"></picture> button in the [space header](../resources/gitbook-ui/#space-header), or open the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> next to the space or change request title and choose **Version history**.
 
-Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../collaboration/change-requests/).
+Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../collaboration/change-requests.md).
 
 ### Show changes
 
-When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../collaboration/change-requests/#diff-mode).
+When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../collaboration/change-requests.md#diff-mode).
 
 To enable or disable this, use the **Show changes** toggle at the bottom of the **Version history** side panel.
 
@@ -53,4 +53,4 @@ Add it at the end of your published docs URL as `/~/revisions/<id>`
 
 Rolling back allows you to revert a space’s content to the way it was at a previous point in time. This is helpful if you’ve accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the space.
 
-To roll back to a previous version of your space, hover over the version in the side panel, click the **Actions button** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and select **Rollback**.
+To roll back to a previous version of your space, hover over the version in the side panel, click the **Actions button** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and select **Rollback**.

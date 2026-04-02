@@ -7,7 +7,7 @@ icon: gear
 
 {% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/26_03_30_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/18_07_25_publishing-documentation-site-settings.svg" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 
@@ -21,11 +21,13 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <details>
 
-<summary>Analytics cookie</summary>
+<summary>Social preview</summary>
 
-If you want to use GitBook’s [site analytics](insights.md), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.
+Here, you can upload a custom social preview image for your site. This will set the site’s `og:image` to your uploaded image, and it’ll show when the site’s link is shared to any platform or product that supports OpenGraph images, such as Slack or X.
 
-You can choose to disable these cookies, but it will prevent you from using site analytics.
+If you don’t add a social preview, GitBook will automatically generate one using your theme color, page title and description.
+
+If your site has multiple [site sections](site-structure/site-sections.md), you can use the drop-down menu in this modal to add a custom social preview image for each one, or for your entire site.
 
 </details>
 
@@ -46,28 +48,6 @@ Unpublish and remove your site from the **Docs site** section in the GitBook app
 **Note:** Deleting a site is a permanent action and cannot be undone. Any settings and customizations will be lost, but your content will remain in its [space](../creating-content/content-structure/space.md).
 
 </details>
-
-<details>
-
-<summary>Access</summary>
-
-Manage who can access and administer your docs site.
-
-Open **Access** and click **Manage permissions**. You can also use **Share** from the site’s **Overview** page.
-
-Site permissions are available on all plans.
-
-By default, new sites derive permissions from their linked [spaces](../creating-content/content-structure/space.md), until you update permissions from the site permissions modal.
-
-Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
-
-</details>
-
-### Agents
-
-{% content-ref url="../gitbook-agent/what-is-gitbook-agent.md" %}
-[what-is-gitbook-agent.md](../gitbook-agent/what-is-gitbook-agent.md)
-{% endcontent-ref %}
 
 ### Audience
 
@@ -117,7 +97,7 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). See [#gitb
 
 <details>
 
-<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collaboration/pdf-export.md "mention") for more info.
 
@@ -125,11 +105,11 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collabor
 
 <details>
 
-<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
-You can review the results of these ratings by opening [site analytics](insights.md) from your docs site dashboard and selecting **Pages & feedback**.
+You can review the results of these ratings by opening the [**Insights**](insights.md) section of your docs site dashboard and selecting the [**Content scores**](insights.md#content-scores) tab.
 
 </details>
 
@@ -137,7 +117,7 @@ You can review the results of these ratings by opening [site analytics](insights
 
 <details>
 
-<summary>Choose the AI experience <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [ai-search.md](ai-search.md "mention") for more info.
 
@@ -145,17 +125,11 @@ Let your site visitors ask GitBook anything with AI search or the GitBook assist
 
 <details>
 
-<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark> </summary>
 
 Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai](ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
 
 </details>
-
-### Connections
-
-{% content-ref url="connections.md" %}
-[connections.md](connections.md)
-{% endcontent-ref %}
 
 ### Structure
 

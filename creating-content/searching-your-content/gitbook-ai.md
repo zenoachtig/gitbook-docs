@@ -22,13 +22,13 @@ Head to the **Organization settings** page and, in the **General** tab, toggle t
 
 ### Using GitBook AI search <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-Once GitBook AI is enabled, open the **Ask or search** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find.svg" alt=""></picture> menu from the left sidebar and simply type out a question. GitBook AI will take a few seconds to scan your documentation and summarize the results.
+Once GitBook AI is enabled, open the **Ask or search** <picture><source srcset="../../.gitbook/assets/quick-find-1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/quick-find.svg" alt=""></picture> menu from the left sidebar and simply type out a question. GitBook AI will take a few seconds to scan your documentation and summarize the results.
 
 ### FAQs
 
 #### How long does it take for GitBook AI to index changes?
 
-When someone makes a change to your content — such as a merged [change request](../../collaboration/change-requests/) — it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
+When someone makes a change to your content — such as a merged [change request](../../collaboration/change-requests.md) — it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
 
 #### How does GitBook AI handle my data?
 

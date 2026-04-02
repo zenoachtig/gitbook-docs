@@ -23,7 +23,7 @@ GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob
 
 GitBook's OpenAPI block also supports a "test it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
 
-Powered by [Scalar](https://scalar.com/), you won't need to leave the docs to see your API methods in action. See an example of this above.
+Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in order to see your API methods in action. See and example of this above.
 
 #### FAQ
 
@@ -31,13 +31,6 @@ Powered by [Scalar](https://scalar.com/), you won't need to leave the docs to se
 
 <summary>Why isn’t my spec loading?</summary>
 
-{% hint style="info" %}
-**Note:** This information only applies to **specs added by URL**.
-{% endhint %}
-
-If you added your specification via URL, your API must [allow cross-origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) GET requests from your docs site. In your API’s CORS settings, allow the exact origin where your docs are hosted (e.g., `https://your-site.gitbook.io` or `https://docs.example.com`). \
-\
-If your endpoint is public and doesn’t use credentials, you can also return: `Access-Control-Allow-Origin: *`\
-<br>
+If you can’t fetch the spec, your API is likely blocking cross-origin requests (CORS).  Please check your API’s response headers for: [`Access-Control-Allow-Origin: *`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) . If your API only allows specific origins, ensure that `*.gitbook.io` is permitted.
 
 </details>

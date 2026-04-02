@@ -23,14 +23,6 @@ paths:
 ```
 {% endcode %}
 
-### Proxy “Test it” requests
-
-Some APIs block browser requests, often because of CORS.
-
-Route **Test it** traffic through GitBook by adding `x-enable-proxy` to your spec.
-
-See [Using OpenAPI proxy](using-openapi-proxy.md) for examples.
-
 ### Enable authentication in the testing window
 
 The request runner can only present and apply auth if your spec declares it. Define schemes under `components.securitySchemes`, then attach them either globally via `security` (applies to all operations) or per-operation (overrides global).

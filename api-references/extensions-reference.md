@@ -1,5 +1,5 @@
 ---
-description: The complete reference of OpenAPI extensions supported by GitBook
+description: The complete reference of OpenAPI extensions supported by GitBook.
 icon: code
 ---
 
@@ -7,7 +7,7 @@ icon: code
 
 You can enhance your OpenAPI specification using extensions—custom fields that start with the `x-` prefix. These extensions let you add extra information and tailor your API documentation to suit different needs.
 
-GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.
+GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.&#x20;
 
 Head to our [guides section](guides/) to learn more about using OpenAPI extensions to configure your documentation.
 
@@ -70,24 +70,20 @@ tags:
 
 <details>
 
-<summary><code>parent | x-parent</code></summary>
+<summary><code>x-parent | parent</code></summary>
 
-Add hierarchy to tags to organize your pages in GitBook.
-
-{% hint style="warning" %}
-`parent` is the official property name in OpenAPI 3.2+. If using OpenAPI versions prior to 3.2 (3.0.x, 3.1.x), use `x-parent` instead.
-{% endhint %}
+Add hierarchy to tags to organize your pages in GitBook.&#x20;
 
 {% code title="openapi.yaml" %}
 ```yaml
-openapi: '3.2'
+openapi: '3.0'
 info: ...
 tags:
   - name: organization
   - name: admin
-    parent: organization
+    x-parent: organization
   - name: user
-    parent: organization    
+    x-parent: organization
 ```
 {% endcode %}
 
@@ -115,38 +111,6 @@ paths:
       x-hideTryItPanel: true
 ```
 {% endcode %}
-
-</details>
-
-<details>
-
-<summary><code>x-enable-proxy</code></summary>
-
-Route “Test it” requests through GitBook’s OpenAPI proxy.
-
-Add it at the root to apply it to every operation. Add it on an operation to apply it to that one endpoint. Operations override the root value.
-
-{% code title="openapi.yaml" %}
-```yaml
-openapi: '3.0.3'
-info: ...
-
-# Enable proxy for all operations
-x-enable-proxy: true
-
-paths:
-  /health:
-    get:
-      summary: Health check
-      # Opt out for a single operation
-      x-enable-proxy: false
-      responses:
-        '200':
-          description: OK
-```
-{% endcode %}
-
-Read more in [Using OpenAPI proxy](guides/using-openapi-proxy.md).
 
 </details>
 
@@ -241,7 +205,7 @@ paths:
 
 <summary><code>x-stability</code></summary>
 
-Mark endpoints that are unstable or in progress.
+Mark endpoints that are unstable or in progress.&#x20;
 
 Supported values: `experimental`, `alpha`, `beta`.
 
@@ -291,7 +255,7 @@ paths:
 
 <summary><code>x-deprecated-sunset</code></summary>
 
-Add a sunset date to a deprecated operation.
+Add a sunset date to a deprecated operation.&#x20;
 
 Supported values: **ISO 8601** format (YYYY-MM-DD)
 
@@ -314,3 +278,4 @@ paths:
 {% endcode %}
 
 </details>
+

@@ -1,12 +1,10 @@
 # Table of contents
 
-## Get Started <a href="#getting-started" id="getting-started"></a>
+## Getting Started
 
-* [GitBook documentation](README.md)
+* [GitBook Documentation](README.md)
 * [Quickstart](getting-started/quickstart.md)
-* [Concepts](getting-started/concepts.md)
-* [Migrate to GitBook](getting-started/import.md)
-* [AI-native documentation](getting-started/ai-documentation.md)
+* [Importing content](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
   * [Enabling GitHub Sync](getting-started/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](getting-started/git-sync/enabling-gitlab-sync.md)
@@ -15,17 +13,15 @@
   * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-  * [Skill.md](https://gitbook.com/docs/skill.md)
 
-## Create <a href="#creating-content" id="creating-content"></a>
+## Creating Content
 
 * [Formatting your content](creating-content/formatting/README.md)
   * [Inline content](creating-content/formatting/inline.md)
   * [Markdown](creating-content/formatting/markdown.md)
 * [Content structure](creating-content/content-structure/README.md)
   * [Spaces](creating-content/content-structure/space.md)
-  * [Pages](creating-content/content-structure/page/README.md)
-    * [Tags](creating-content/content-structure/page/tags.md)
+  * [Pages](creating-content/content-structure/page.md)
   * [Collections](creating-content/content-structure/collection.md)
 * [Blocks](creating-content/blocks/README.md)
   * [Paragraphs](creating-content/blocks/paragraph.md)
@@ -44,7 +40,6 @@
   * [Tabs](creating-content/blocks/tabs.md)
   * [Expandable](creating-content/blocks/expandable.md)
   * [Stepper](creating-content/blocks/stepper.md)
-  * [Updates](creating-content/blocks/updates.md)
   * [Drawings](creating-content/blocks/drawing.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
@@ -54,36 +49,17 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
-  * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
-* [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
+* [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+* [Translations](creating-content/translations.md)
 * [Broken links](creating-content/broken-links.md)
 
-## GitBook Agent
-
-* [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
-* [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
-* [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
-* [Translations](gitbook-agent/translations.md)
-
-## Collaborate <a href="#collaboration" id="collaboration"></a>
-
-* [Inviting your team](collaboration/share.md)
-* [Change requests](collaboration/change-requests/README.md)
-  * [Change requests screen](collaboration/change-requests/change-requests-screen.md)
-  * [Change requests in a space](collaboration/change-requests/change-requests-in-a-space.md)
-* [Merge rules](collaboration/merge-rules.md)
-* [Comments](collaboration/comments.md)
-* [Notifications](collaboration/notifications.md)
-* [PDF export](collaboration/pdf-export.md)
-* [Live edits](collaboration/live-edits.md)
-
-## Document an API <a href="#api-references" id="api-references"></a>
+## API References
 
 * [OpenAPI](api-references/openapi/README.md)
   * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
@@ -93,37 +69,28 @@
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
   * [Managing API operations](api-references/guides/managing-api-operations.md)
   * [Configuring the “Test it” button](api-references/guides/configuring-the-test-it-button.md)
-  * [Using OpenAPI proxy](api-references/guides/using-openapi-proxy.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
 * [Extensions reference](api-references/extensions-reference.md)
 
-## Publish Documentation <a href="#publishing-documentation" id="publishing-documentation"></a>
+## Publishing Documentation
 
 * [Publish a docs site](publishing-documentation/publish-a-docs-site/README.md)
   * [Public publishing](publishing-documentation/publish-a-docs-site/public-publishing.md)
   * [Private publishing with share links](publishing-documentation/publish-a-docs-site/share-links.md)
-  * [Authenticated access](publishing-documentation/authenticated-access/README.md)
 * [Site structure](publishing-documentation/site-structure/README.md)
-  * [Site sections](publishing-documentation/site-structure/site-sections.md)
   * [Content variants](publishing-documentation/site-structure/variants.md)
-  * [Multilingual sections](publishing-documentation/site-structure/multilingual-sections.md)
+  * [Site sections](publishing-documentation/site-structure/site-sections.md)
 * [Site customization](publishing-documentation/customization/README.md)
   * [Icons, colors, and themes](publishing-documentation/customization/icons-colors-and-themes.md)
   * [Layout and structure](publishing-documentation/customization/layout-and-structure.md)
-  * [Sharing and social](publishing-documentation/customization/sharing-and-social.md)
   * [Extra configuration](publishing-documentation/customization/extra-configuration.md)
 * [Set a custom domain](publishing-documentation/custom-domain.md)
 * [Setting a custom subdirectory](publishing-documentation/setting-a-custom-subdirectory/README.md)
   * [Configuring a subdirectory with Cloudflare](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-cloudflare.md)
   * [Configuring a subdirectory with Vercel](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md)
-  * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md)
 * [Site settings](publishing-documentation/site-settings.md)
-* [Site analytics](publishing-documentation/insights.md)
-* [AI insights](publishing-documentation/ai-insights.md)
-* [Agent audit](publishing-documentation/agent-audit.md)
-* [Connections](publishing-documentation/connections.md)
-* [Channels](publishing-documentation/channels.md)
+* [Site insights](publishing-documentation/insights.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
 * [Authenticated access](publishing-documentation/authenticated-access/README.md)
   * [Enabling authenticated access](publishing-documentation/authenticated-access/enabling-authenticated-access.md)
@@ -142,23 +109,34 @@
   * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
 * [AI Search](publishing-documentation/ai-search.md)
-* [GitBook Assistant](publishing-documentation/gitbook-ai-assistant.md)
+* [GitBook Assistant](publishing-documentation/gitbook-ai-assistant/README.md)
+  * [Embedding](publishing-documentation/gitbook-ai-assistant/embedding/README.md)
+    * [Script tag](publishing-documentation/gitbook-ai-assistant/embedding/script.md)
+    * [Node.js/NPM](publishing-documentation/gitbook-ai-assistant/embedding/nodejs.md)
+    * [React](publishing-documentation/gitbook-ai-assistant/embedding/react.md)
+  * [Authentication](publishing-documentation/gitbook-ai-assistant/using-with-authenticated-docs.md)
+  * [Configuration](publishing-documentation/gitbook-ai-assistant/configuration/README.md)
+    * [Customizing the Assistant](publishing-documentation/gitbook-ai-assistant/configuration/customizing-gitbook-assistant.md)
+    * [Creating custom tools](publishing-documentation/gitbook-ai-assistant/configuration/creating-custom-tools.md)
+    * [Reference](publishing-documentation/gitbook-ai-assistant/configuration/reference.md)
 * [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
 * [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
-* [Embed in your product](publishing-documentation/embedding/README.md)
-  * [Implementation](publishing-documentation/embedding/implementation/README.md)
-    * [Script tag](publishing-documentation/embedding/implementation/script.md)
-    * [Node.js/NPM](publishing-documentation/embedding/implementation/nodejs.md)
-    * [React](publishing-documentation/embedding/implementation/react.md)
-  * [Authentication](publishing-documentation/embedding/authentication/using-with-authenticated-docs.md)
-  * [Configuration](publishing-documentation/embedding/configuration/README.md)
-    * [Customizing the Embed](publishing-documentation/embedding/configuration/customizing-docs-embed.md)
-    * [Connect to custom tools](publishing-documentation/embedding/configuration/creating-custom-tools.md)
-    * [API Reference](publishing-documentation/embedding/configuration/reference.md)
+
+## Collaboration
+
+* [Live edits](collaboration/live-edits.md)
+* [Change requests](collaboration/change-requests.md)
+* [AI change requests](collaboration/ai-change-requests.md)
+* [PDF export](collaboration/pdf-export.md)
+* [Inviting your team](collaboration/share.md)
+* [Merge rules](collaboration/merge-rules.md)
+* [Comments](collaboration/comments.md)
+* [Notifications](collaboration/notifications.md)
 
 ## Integrations
 
 * [Install and manage integrations](integrations/install-an-integration.md)
+* [GitHub Copilot](integrations/github-copilot.md)
 * [Slack (beta)](integrations/slack.md)
 * [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
 
@@ -173,7 +151,7 @@
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)
 * [Member management](account-management/member-management/README.md)
-  * [Invite or remove members](account-management/member-management/invite-members-to-your-organization.md)
+  * [Manage or remove members](account-management/member-management/invite-members-to-your-organization.md)
   * [Roles](account-management/member-management/roles.md)
   * [Teams](account-management/member-management/teams.md)
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
@@ -188,10 +166,6 @@
 ## Resources
 
 * [GitBook UI](resources/gitbook-ui/README.md)
-  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
+  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
-
-***
-
-* [skill](skill.md)

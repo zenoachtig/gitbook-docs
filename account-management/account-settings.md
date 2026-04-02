@@ -1,5 +1,5 @@
 ---
-description: View and manage the settings for your personal GitBook account
+description: View and manage the settings for your personal GitBook account.
 icon: user
 ---
 
@@ -7,7 +7,7 @@ icon: user
 
 You can manage your login details, third-party login options, GitBook subdomain, interface theme, notification, integrations and API access tokens.
 
-<figure><img src="../.gitbook/assets/22_01_06_account_settings@2x.png" alt="A GitBook screenshot showing the personal settings page"><figcaption><p>Your personal settings page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_account_settings.svg" alt="A GitBook screenshot showing the personal settings page"><figcaption><p>Your personal settings page.</p></figcaption></figure>
 
 ### How to access your personal account settings
 

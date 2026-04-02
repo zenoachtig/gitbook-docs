@@ -10,15 +10,15 @@ When you add a member to your organization, you set [their default role](roles.m
 
 Any time you create a collection or a space, you’ll be able to set the type of inheritance you want. You have three broad options when setting the inheritance for a piece of content:
 
-### Inherit
+#### Inherit
 
 Setting the inheritance to **inherit** will make the space or collection inherit the roles assigned in the **parent level content**. For top-level spaces or collections, this parent is the organization, so they would inherit the organization default roles. For spaces or sub-collections inside a collection, the parent will be the collection the content sits within.
 
-### Specific role access
+#### Specific role access
 
 Selecting a specific role when setting a collection or space’s permission inheritance will **reset** the organization default roles and assign every **non-admin** to that role within the collection or space. For example, if you set the inheritance to **reader**, everyone in the organization would have read-only access to the space or collection, regardless of their default role.
 
-### No access
+#### No access
 
 You can also completely revoke access for any non-admin organization members at a space or collection level. This will hide the content from everyone except for admins and whomever created the space or collection.
 
@@ -28,9 +28,9 @@ The default inheritance option for any newly-created space or collection is **in
 
 ### Setting content specific permissions
 
-Once you’ve decided on the permission inheritance for your space or collection, you can further customise access by giving teams or members **direct access**.
+Once you’ve decided on the permission inheritance for your space or collection, you can further customize access by giving teams or members **direct access**.
 
-### Giving a team direct access
+#### Giving a team direct access
 
 You can add a team directly to a collection or space with a specific role. This will give anyone in that team the specified access to the content.
 
@@ -38,7 +38,7 @@ You can add a team directly to a collection or space with a specific role. This 
 Team access is a great way to ensure that the right people have access to the right content; any time someone is added to or removed from a team, they’ll gain or lose, respectively, the permissions set on the content.
 {% endhint %}
 
-### Giving a member direct access
+#### Giving a member direct access
 
 Similarly to teams, you can also give members direct access. This is the most granular way of managing permissions. When giving single members direct access to a collection or space, you override any inherited permissions they might have. Direct member access is great if you need very specific control over collaborators.
 

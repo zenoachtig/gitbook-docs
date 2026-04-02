@@ -1,5 +1,5 @@
 ---
-description: Learn how to manage access to content for members of your organization
+description: Learn how to manage access to content for members of your organization.
 icon: users
 ---
 
