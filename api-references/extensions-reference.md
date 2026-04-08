@@ -120,6 +120,57 @@ paths:
 
 <details>
 
+<summary><code>x-expandAllResponses</code></summary>
+
+Expand all response sections by default, instead of showing only one at a time.
+
+Add it at the root to apply it to every operation. Add it on an operation to apply it to that one endpoint.
+
+<pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">openapi: '3.0'
+info: ...
+
+# Expand all responses for every operation
+<strong>x-expandAllResponses: true
+</strong>
+paths:
+  /pets:
+    get:
+      summary: List pets
+      responses: [...]
+      # Opt out for a single operation
+<strong>      x-expandAllResponses: false
+</strong></code></pre>
+
+</details>
+
+<details>
+
+<summary><code>x-expandAllModelSections</code></summary>
+
+Expand all model/schema sections by default, showing nested object properties without requiring user interaction.
+
+Add it at the root to apply it to every operation. Add it on an operation to apply it to that one endpoint.
+
+<pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">openapi: '3.0'
+info: ...
+
+# Expand all model sections for every operation
+<strong>x-expandAllModelSections: true
+</strong>
+paths:
+  /pets:
+    post:
+      summary: Create a pet
+      requestBody: [...]
+      responses: [...]
+      # Opt out for a single operation
+<strong>      x-expandAllModelSections: false
+</strong></code></pre>
+
+</details>
+
+<details>
+
 <summary><code>x-enable-proxy</code></summary>
 
 Route “Test it” requests through GitBook’s OpenAPI proxy.
