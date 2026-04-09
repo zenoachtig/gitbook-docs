@@ -173,7 +173,7 @@
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)
 * [Member management](account-management/member-management/README.md)
-  * [Invite or remove members](account-management/member-management/invite-members-to-your-organization.md)
+  * [Manage or remove members](account-management/member-management/invite-members-to-your-organization.md)
   * [Roles](account-management/member-management/roles.md)
   * [Teams](account-management/member-management/teams.md)
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
