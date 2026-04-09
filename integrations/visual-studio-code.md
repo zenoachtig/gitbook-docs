@@ -5,22 +5,8 @@ description: >-
 hidden: true
 noIndex: true
 icon: square-code
-cover: broken-reference
+cover: /broken/files/uV0p4l30XC1aMxhLZvdE
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Visual Studio Code (alpha)

@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn how to structure your API reference across multiple pages with icons and
-  descriptions.
+  descriptions
 ---
 
 # Structuring your API reference
@@ -63,11 +63,11 @@ You can enhance pages with titles, icons, and descriptions using custom extensio
 tags:
   - name: pet
     # Page title displayed in table of contents and page
-    -x-page-title: Pet
+    x-page-title: Pet
     # Icon shown in table of contents and next to page title
-    -x-page-icon: dog
+    x-page-icon: dog
     # Description shown just above the title
-    -x-page-description: Pets are amazing!
+    x-page-description: Pets are amazing!
     # Content of the page
     description: Everything about your Pets
 ```
@@ -114,5 +114,32 @@ tags:
           {% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
               The Pet object
           {% endopenapi-schemas %}
+```
+{% endcode %}
+
+### Document a webhook endpoint
+
+GitBook also supports documenting webhook endpoints when using OpenAPI 3.1.
+
+You can define your webhooks directly in your OpenAPI file using the `webhooks` field, which works similarly to `paths` for regular API endpoints:
+
+{% code title="openapi.yaml" %}
+```yaml
+---
+openapi: 3.1.0 # Webhooks are available starting from OpenAPI 3.1
+
+webhooks:
+  newPet:
+    post:
+      summary: New pet event
+      description: Information about a new pet in the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Pet"
+      responses:
+        "200":
+          description: Return a 200 status to indicate that the data was received successfully
 ```
 {% endcode %}

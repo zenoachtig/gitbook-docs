@@ -1,5 +1,5 @@
 ---
-description: Set up an AWS Cognito login screen for visitors to your docs.
+description: Set up an AWS Cognito login screen for visitors to your docs
 ---
 
 # Setting up AWS Cognito
@@ -12,19 +12,19 @@ To setup your GitBook site with authenticated access using AWS Cognito, the proc
 
 {% stepper %}
 {% step %}
-#### Create a new AWS Cognito application
+**Create a new AWS Cognito application**
 
 Create an AWS Cognito application from your AWS dashboard.
 {% endstep %}
 
 {% step %}
-#### Install and configure the AWS Cognito integration
+**Install and configure the AWS Cognito integration**
 
 Install the AWS Cognito integration and add the required configuration.
 {% endstep %}
 
 {% step %}
-#### Configure AWS Cognito for adaptive content (optional)
+**Configure AWS Cognito for adaptive content (optional)**
 
 Configure AWS Cognito to work with adaptive content in GitBook.
 {% endstep %}
@@ -48,7 +48,7 @@ Click on the created app client and make a note of the Client ID and Client Secr
 
 Navigate to integrations within the GitBook app, select authenticated access as the category, and install the AWS Cognito integration.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt="A GitBook screenshot showing the AWS Cognito integration install screen"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_oidc_2.png" alt="A GitBook screenshot showing the AWS Cognito integration install screen"><figcaption></figcaption></figure>
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We will need it to set up Cognito.
 
@@ -56,7 +56,7 @@ Open up the Cognito integration's configuration screen for the space you install
 
 It should look like the following image:
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.41.57 PM.png" alt="A GitBook screenshot showing the AWS Cognito configuration screen"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_aws_cognito_1.png" alt="A GitBook screenshot showing the AWS Cognito configuration screen"><figcaption></figcaption></figure>
 
 For Client ID, Cognito Domain, and Client Secret, paste in the values you got from Cognito.
 
@@ -66,7 +66,7 @@ Now, in GitBook, close the integrations modal and click on the Manage site butto
 \
 The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Cognito, which confirms that your site is published behind authenticated access using Auth0.
 
-### Configure AWS Cognito for adaptive content
+### Configure AWS Cognito for adaptive content (optional)
 
 To leverage Adaptive Content with authenticated access in GitBook, you’ll need to configure your Amazon Cognito user pool to include custom claims in the ID token.
 
@@ -97,6 +97,6 @@ export const handler = async (event, context) => {
 };
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-30 at 17.31.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_06_30_setting_up_aws_cognito_2.png" alt=""><figcaption></figcaption></figure>
 
 Once added, these key-value pairs are included in the authentication token and passed to GitBook, allowing your site to dynamically adapt its content based on the authenticated user’s profile.

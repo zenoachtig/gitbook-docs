@@ -10,9 +10,9 @@ To start customizing your documentation experience for your readers, you'll need
 
 Before you’re able to pass user data to GitBook, you’ll need to configure your site to use adaptive content.
 
-Head to your [site’s settings](../../site-settings.md), and enable “Adaptive content” from your site’s audience settings. Once enabled, you’ll get a generated “Visitor token signing key”, which you’ll need in order to continue the adaptive content setup.
+Head to your [site’s settings](../../site-settings.md), and enable **Adaptive content** from your site’s audience settings. Once enabled, you’ll get a generated ‘Visitor token signing key’, which you’ll need in order to continue the adaptive content setup.
 
-<figure><img src="../../../.gitbook/assets/21_03_25_enable_adaptive_content.svg" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/26_01_06_enable_adaptive_content@2x.png" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content in your site’s Settings</p></figcaption></figure>
 
 ### Set your visitor schema
 
@@ -29,7 +29,7 @@ For example, if you expect a visitor to potentially be a beta user in your produ
     "isBetaUser": {
       "type": "boolean",
       "description": "Whether the visitor is a Beta user."
-    },
+    }
   },
   "additionalProperties": false
 }
@@ -41,7 +41,9 @@ This will also help you use autocomplete when configuring your claims in the [co
 {% tab title="Strings" %}
 Read claims being passed in as strings.
 
-Strings **must contain an enum** key, which needs to contain any expected values that would be found on the key being read.
+GitBook accepts dynamic strings, meaning you can dynamically pass string data — such as a user’s name, developer tokens, and more.
+
+Strings can also contain an **optional enum** key, which allows you to restrict the data that is received by GitBook to one of it’s set values.
 
 ```json
 {
@@ -50,6 +52,7 @@ Strings **must contain an enum** key, which needs to contain any expected values
     "language": {
           "type": "string",
           "description": "The language of the visitor",
+          // Optional enum property
           "enum": [
             "en",
             "fr",
@@ -59,6 +62,10 @@ Strings **must contain an enum** key, which needs to contain any expected values
   "additionalProperties": false
 }
 ```
+
+{% hint style="warning" %}
+Dynamic strings (strings defined without an enum key) are only accepted for [inline expressions](../../../creating-content/variables-and-expressions.md#use-variables-in-your-content). Conditional expressions for visibility of elements (pages, sections, blocks) only work with strings defined with enum keys.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Booleans" %}
@@ -111,6 +118,8 @@ Nest claims in an object to group similar values.
 
 ### Set an unsigned claim
 
+Unsigned claims are a specific type of claim that identifies claims coming through that might not be signed by a client application. It is required to set claims in your visitor schema as `unsigned` if you are passing claims through URL parameters, unsigned cookies, and feature flags.
+
 If you intend to work with unsigned claims, you will need to declare the claims you are expecting in the schema under an “unsigned” prop alongside your signed claims.
 
 ```json
@@ -129,6 +138,7 @@ If you intend to work with unsigned claims, you will need to declare the claims 
         "language": {
           "type": "string",
           "description": "The language of the visitor",
+          // Optional enum property
           "enum": [
             "en",
             "fr",
