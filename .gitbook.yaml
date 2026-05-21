@@ -1,10 +1,10 @@
 site:
-  title: Site Git Sync
+  title: Zeno Docs
   structure:
     - type: section
       key: section-1
-      title: Site Git Sync
-      path: site-git-sync
+      title: Zeno Docs
+      path: zeno-docs
       default: true
       children:
         - type: space
@@ -16,57 +16,15 @@ site:
             directory: ""
     - type: section
       key: section-2
-      title: Untitled
-      path: untitled
+      title: Test
+      path: test
       draft: true
       children:
         - type: space
           key: space-2
-          title: Untitled
+          title: Test
           path: untitled
           default: true
           draft: true
           content:
             directory: ""
-    - type: section
-      key: section-3
-      title: Untitled
-      path: untitled-1
-      draft: true
-      children:
-        - type: space
-          key: space-3
-          title: Untitled
-          path: untitled
-          default: true
-          draft: true
-          content:
-            directory: ""
-    - type: section
-      key: section-4
-      title: Untitled
-      path: untitled-2
-      draft: true
-      children:
-        - type: space
-          key: space-4
-          title: Untitled
-          path: untitled
-          default: true
-          draft: true
-          content:
-            directory: ./untitled-2/untitled
-    - type: section
-      key: section-5
-      title: Untitled
-      path: untitled-3
-      draft: true
-      children:
-        - type: space
-          key: space-5
-          title: Untitled
-          path: untitled
-          default: true
-          draft: true
-          content:
-            directory: ./untitled-3/untitled
