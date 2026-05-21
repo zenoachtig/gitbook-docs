@@ -7,7 +7,7 @@ icon: code
 
 You can enhance your OpenAPI specification using extensions—custom fields that start with the `x-` prefix. These extensions let you add extra information and tailor your API documentation to suit different needs.
 
-GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.&#x20;
+GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.
 
 Head to our [guides section](api-references/guides/) to learn more about using OpenAPI extensions to configure your documentation.
 
@@ -72,7 +72,7 @@ tags:
 
 <summary><code>x-parent | parent</code></summary>
 
-Add hierarchy to tags to organize your pages in GitBook.&#x20;
+Add hierarchy to tags to organize your pages in GitBook.
 
 {% code title="openapi.yaml" %}
 ```yaml
@@ -120,7 +120,7 @@ paths:
 
 Show, hide, or include custom code samples for an OpenAPI block.
 
-#### Fields
+**Fields**
 
 <table><thead><tr><th width="103.625">Field Name</th><th width="88.07421875" align="center">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>lang</code></td><td align="center">string</td><td>Code sample language. Value should be one of the following <a href="https://github.com/github/linguist/blob/master/lib/linguist/popular.yml">list</a></td></tr><tr><td><code>label</code></td><td align="center">string</td><td>Code sample label, for example <code>Node</code> or <code>Python2.7</code>, <em>optional</em>, <code>lang</code> is used by default</td></tr><tr><td><code>source</code></td><td align="center">string</td><td>Code sample source code</td></tr></tbody></table>
 
@@ -205,7 +205,7 @@ paths:
 
 <summary><code>x-stability</code></summary>
 
-Mark endpoints that are unstable or in progress.&#x20;
+Mark endpoints that are unstable or in progress.
 
 Supported values: `experimental`, `alpha`, `beta`.
 
@@ -255,7 +255,7 @@ paths:
 
 <summary><code>x-deprecated-sunset</code></summary>
 
-Add a sunset date to a deprecated operation.&#x20;
+Add a sunset date to a deprecated operation.
 
 Supported values: **ISO 8601** format (YYYY-MM-DD)
 
@@ -278,4 +278,3 @@ paths:
 {% endcode %}
 
 </details>
-

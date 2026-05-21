@@ -10,19 +10,19 @@ GitBook provides helper functions and integrations for popular feature flag serv
 
 {% stepper %}
 {% step %}
-### Install the LaunchDarkly integration
+#### Install the LaunchDarkly integration
 
 To get started, you’ll first need to [install the LaunchDarkly integration](https://app.gitbook.com/integrations/launchdarkly) into your GitBook site.
 {% endstep %}
 
 {% step %}
-### Set up your project and access keys
+#### Set up your project and access keys
 
 Add your project key and your service access token from your [LaunchDarkly settings](https://app.launchdarkly.com/settings).
 {% endstep %}
 
 {% step %}
-### Install the GitBook helper
+#### Install the GitBook helper
 
 After setting up the LaunchDarkly integration, you’ll need to install the GitBook adaptive content helper in your project.
 
@@ -32,7 +32,7 @@ npm install @gitbook/adaptive
 {% endstep %}
 
 {% step %}
-### Configure your client
+#### Configure your client
 
 Finally, you’ll need to use the `withLaunchDarkly` helper with the LaunchDarkly React SDK to pass context into GitBook.
 
@@ -81,19 +81,19 @@ Once connected, any feature flag value available in LaunchDarkly will be exposed
 
 {% stepper %}
 {% step %}
-### Install the Bucket Integration
+#### Install the Bucket Integration
 
 To get started, you’ll first need to [install the Bucket integration](https://app.gitbook.com/integrations/bucket) into your GitBook site.
 {% endstep %}
 
 {% step %}
-### Set up your secret key
+#### Set up your secret key
 
 Add your secret key from your [Bucket settings](https://app.bucket.co/envs/current/settings/app-environments).
 {% endstep %}
 
 {% step %}
-### Install the GitBook helper
+#### Install the GitBook helper
 
 After setting up the Bucket integration, you’ll need to install the GitBook adaptive content helper in your project.
 
@@ -103,7 +103,7 @@ npm install @gitbook/adaptive
 {% endstep %}
 
 {% step %}
-### Configure your client
+#### Configure your client
 
 Finally, you’ll need to use the `withBucket` helper with the LaunchDarkly React SDK to pass context into GitBook.
 

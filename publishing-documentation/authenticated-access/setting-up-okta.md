@@ -12,19 +12,19 @@ To setup your GitBook site with authenticated access using Okta, the process loo
 
 {% stepper %}
 {% step %}
-#### Create a new Okta application
+**Create a new Okta application**
 
 Create an Okta application from your Okta dashboard.
 {% endstep %}
 
 {% step %}
-#### Install and configure the Okta integration
+**Install and configure the Okta integration**
 
 Install the Okta integration and add the required configuration.
 {% endstep %}
 
 {% step %}
-#### Configure Okta for adaptive content (optional)
+**Configure Okta for adaptive content (optional)**
 
 Configure Okta to work with adaptive content in GitBook.
 {% endstep %}

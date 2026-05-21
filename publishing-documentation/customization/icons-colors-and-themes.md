@@ -25,7 +25,7 @@ This setting will only affect the icon that displays _in the published documenta
 You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and you can upload two versions: one for light mode, and one for dark mode.
 
 {% hint style="info" %}
-#### What’s the difference between the icon and logo options?
+**What’s the difference between the icon and logo options?**
 
 The icon setting lets you upload a small, 132×132 px image, which will appear _alongside_ your space title and function as your site’s favicon. The custom logo option lets you upload a larger image (we recommend at least 600 px wide), which will completely replace any icon and title you’ve set.
 {% endhint %}

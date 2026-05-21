@@ -31,7 +31,7 @@ Hint blocks support [inline content](../formatting/inline.md) and [formatting](.
 {% endhint %}
 
 {% hint style="info" %}
-#### This is a H2 heading
+**This is a H2 heading**
 
 This is a line
 

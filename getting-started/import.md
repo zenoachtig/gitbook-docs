@@ -4,13 +4,21 @@ description: >-
   more
 icon: arrow-up-to-line
 layout:
-    width: default
-    title:
-        visible: false
-    description:
-        visible: true
-    metadata:
-        visible: false
+  width: default
+  title:
+    visible: false
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
 ---
 
 # Importing content
@@ -79,7 +87,7 @@ Here’s how to do it:
 
 {% stepper %}
 {% step %}
-#### Convert your content into Markdown
+**Convert your content into Markdown**
 
 GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
 
@@ -87,19 +95,19 @@ If your content isn’t already in Markdown files, we recommend using a script (
 {% endstep %}
 
 {% step %}
-#### Organize your content in GitHub or GitLab
+**Organize your content in GitHub or GitLab**
 
 When setting up your GitBook site, it’s crucial to organize your content in your GitHub or GitLab repository efficiently. Since Git Sync occurs at the space level, carefully plan how to group your content. Create multiple repositories or folders, ensuring the necessary Markdown files are in the correct locations.
 {% endstep %}
 
 {% step %}
-#### Set up spaces and Git Sync
+**Set up spaces and Git Sync**
 
 To organize your content, create one or more spaces in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those spaces. You’ll need to synchronize your space with the folder or repository you set up in the previous step.
 {% endstep %}
 
 {% step %}
-#### Run Git Sync in the direction GitHub → GitBook
+**Run Git Sync in the direction GitHub → GitBook**
 
 When following the configuration process, make sure you select the direction of GitHub → GitBook. This will result in the contents of your folder or repository being pulled from GitHub or GitLab into GitBook.
 {% endstep %}
