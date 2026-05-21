@@ -56,3 +56,17 @@ site:
           draft: true
           content:
             directory: ./untitled-2/untitled
+    - type: section
+      key: section-5
+      title: Untitled
+      path: untitled-3
+      draft: true
+      children:
+        - type: space
+          key: space-5
+          title: Untitled
+          path: untitled
+          default: true
+          draft: true
+          content:
+            directory: ./untitled-3/untitled
