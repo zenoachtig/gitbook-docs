@@ -1,29 +1,65 @@
 site:
-  title: Zeno Docs
+  title: Public Docs
   structure:
     - type: section
+      key: section-3
+      title: GitBook API
+      path: gitbook-api
+      children:
+        - type: space
+          key: space-4
+          title: GitBook API
+          path: gitbook-api
+          default: true
+          content:
+            directory: ./gitbook-api/gitbook-api
+    - type: section
+      key: section-2
+      title: GitBook Enterprise Guide
+      path: gitbook-enterprise-guide
+      children:
+        - type: space
+          key: space-2
+          title: GitBook Enterprise Guide
+          path: gitbook-enterprise-guide
+          default: true
+          content:
+            directory: ./gitbook-enterprise-guide/gitbook-enterprise-guide
+        - type: space
+          key: space-5
+          title: HotJar
+          path: hotjar
+          content:
+            directory: ./gitbook-enterprise-guide/hotjar
+    - type: section
       key: section-1
-      title: Zeno Docs
-      path: zeno-docs
+      title: Site Sections
+      path: site-sections
       default: true
       children:
         - type: space
           key: space-1
-          title: Docs
-          path: docs
+          title: Site Sections
+          path: site-sections
           default: true
           content:
-            directory: ""
+            directory: ./site-sections/site-sections
+        - type: space
+          key: space-3
+          title: Customization Settings
+          path: customization-settings
+          content:
+            directory: ./site-sections/customization-settings
     - type: section
-      key: section-2
-      title: Test
-      path: test
+      key: section-4
+      title: Test section
+      path: test-section
       draft: true
       children:
         - type: space
-          key: space-2
-          title: Test
-          path: untitled
+          key: space-6
+          title: Test section
+          path: test-section
           default: true
           draft: true
           content:
