@@ -50,3 +50,17 @@ site:
           path: customization-settings
           content:
             directory: ./site-sections/customization-settings
+    - type: section
+      key: section-4
+      title: Test section
+      path: test-section
+      draft: true
+      children:
+        - type: space
+          key: space-6
+          title: Test section
+          path: test-section
+          default: true
+          draft: true
+          content:
+            directory: ./docs/getting-started
