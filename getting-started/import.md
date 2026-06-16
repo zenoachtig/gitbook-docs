@@ -19,6 +19,8 @@ layout:
     visible: false
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Importing content
@@ -26,6 +28,8 @@ layout:
 You can migrate and unify existing documentation in GitBook using the import tool.
 
 You have the option to import single or multiple pages using our built-in import tool — or [an entire Git repository using Git Sync](import.md#import-using-git-sync).
+
+
 
 ## Using the Import Panel
 
@@ -54,7 +58,7 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 ### The Import panel
 
-<figure data-full-width="true"><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
 When you create a new space, you’ll have the option to import content from the bottom sheet of the first empty page.
 
@@ -80,7 +84,7 @@ GitBook currently has the following limits for imported content:
 For importing large volumes of content into GitBook, we recommend using [Git Sync](git-sync/). Unlike our integrated import tool, Git Sync is better suited for handling larger migrations efficiently.
 
 {% hint style="info" %}
-You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide to [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/import-or-migrate-your-content-to-gitbook-with-git-sync).
+You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide to [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
 {% endhint %}
 
 Here’s how to do it:
