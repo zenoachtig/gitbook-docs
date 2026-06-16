@@ -29,8 +29,6 @@ You can migrate and unify existing documentation in GitBook using the import too
 
 You have the option to import single or multiple pages using our built-in import tool — or [an entire Git repository using Git Sync](import.md#import-using-git-sync).
 
-
-
 ## Using the Import Panel
 
 ### Supported import formats
@@ -58,7 +56,7 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 ### The Import panel
 
-<div data-full-width="true"><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"></div>
+![A GitBook screenshot showing the import panel](../.gitbook/assets/10_01_25_import_modal.svg)
 
 When you create a new space, you’ll have the option to import content from the bottom sheet of the first empty page.
 
