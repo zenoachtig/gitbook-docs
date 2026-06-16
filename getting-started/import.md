@@ -54,7 +54,7 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 ### The Import panel
 
-<figure><img data-full-width="true" src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+<figure data-full-width="true"><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
 When you create a new space, you’ll have the option to import content from the bottom sheet of the first empty page.
 
