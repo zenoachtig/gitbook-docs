@@ -6,7 +6,7 @@ description: >-
 
 # Markdown
 
-<figure><img src="../../.gitbook/assets/10_01_25_markdown.svg" alt="An image containing the markdown logo" ><figcaption><p>Write Markdown in GitBook.</p></figcaption></figure>
+<figure><img src="../../untitled/.gitbook/assets/10_01_25_markdown.svg" alt="An image containing the markdown logo"><figcaption><p>Write Markdown in GitBook.</p></figcaption></figure>
 
 GitBook’s editor allows you to create formatted content using Markdown.
 
@@ -39,21 +39,17 @@ GitBook supports all the classic inline Markdown formatting:
 
 ` ```py⏎ ` creates a new code block with Python syntax highlighting.
 
-{% hint style="info" %}
-We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. You can use [Test Drive Prism](https://prismjs.com/test.html#language=markup) to check which languages Prism supports. If you notice a mismatch between GitBook and Prism, there’s a chance we’re a version or two behind. We’ll catch up soon!
-{% endhint %}
+\{% hint style="info" %\} We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. You can use [Test Drive Prism](https://prismjs.com/test.html#language=markup) to check which languages Prism supports. If you notice a mismatch between GitBook and Prism, there’s a chance we’re a version or two behind. We’ll catch up soon! \{% endhint %\}
 
 ### Lists
 
 GitBook automatically detects and creates ordered and unordered lists as you type.
 
 * Begin a line with `-` or `*` to start an unordered bullet list.
-* Begin a line with `1.` to start a numbered list.&#x20;
+* Begin a line with `1.` to start a numbered list.
 * Begin a line with `- [ ]` to start a task list.
 
-{% hint style="info" %}
-When writing any kind of list, hit `Tab` to add a indent, and `Shift+Tab` to outdent.
-{% endhint %}
+\{% hint style="info" %\} When writing any kind of list, hit `Tab` to add a indent, and `Shift+Tab` to outdent. \{% endhint %\}
 
 ### Quotes
 
@@ -63,7 +59,7 @@ Begin a line with `>` to create a block quote. If you select an entire paragraph
 
 ### Dividers
 
-Type `---` then hit `Enter` to create a divider on your page.&#x20;
+Type `---` then hit `Enter` to create a divider on your page.
 
 ***
 

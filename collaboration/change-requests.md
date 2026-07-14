@@ -9,7 +9,7 @@ A change request is a copy of your main content. It comes from the simple concep
 
 In a change request, you can edit, update and delete elements of your content, request reviews on your changes, then merge them back into your main version to apply all the changes you made.
 
-<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt="A GitBook screenshot showing the change requests panel" ><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
+<figure><img src="../untitled/.gitbook/assets/10_01_25_change_requests.svg" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 ### Creating a change request
 
@@ -70,7 +70,7 @@ Merging a change request will add the change request’s changes into the main b
 
 If you prefer to merge change requests at a scheduled time—for example, to align with your product release cycles—you can use external tools like GitHub Actions or automation platforms such as Zapier, connected through [GitBook’s API](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests#post-spaces-spaceid-change-requests-changerequestid-merge).
 
-As an example, adding this GitHub workflow would merege a change request once a week:&#x20;
+As an example, adding this GitHub workflow would merege a change request once a week:
 
 {% code title=".github/workflows/scheduled-gitbook-merge.yml" %}
 ```yaml
@@ -120,4 +120,4 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 If you decide not to merge a change request and want to remove it from the queue, you can archive it.
 
-To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../untitled/.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../untitled/.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.

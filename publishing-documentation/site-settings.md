@@ -7,7 +7,7 @@ icon: gear
 
 {% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/10_01_25_site_settings.svg" alt="A GitBook screenshot showing site settings" ><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../untitled/.gitbook/assets/10_01_25_site_settings.svg" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 
@@ -25,7 +25,7 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 Here, you can upload a custom social preview image for your site. This will set the site’s `og:image` to your uploaded image, and it’ll show when the site’s link is shared to any platform or product that supports OpenGraph images, such as Slack or X.
 
-If you don’t add a social preview, GitBook will automatically generate one using your theme color, page title and description.&#x20;
+If you don’t add a social preview, GitBook will automatically generate one using your theme color, page title and description.
 
 If your site has multiple [site sections](site-structure/site-sections.md), you can use the drop-down menu in this modal to add a custom social preview image for each one, or for your entire site.
 
@@ -43,7 +43,7 @@ Unpublish your site, but keep its settings and customizations. You can publish y
 
 <summary>Delete site</summary>
 
-Unpublish and remove your site from the **Docs site** section in the GitBook app.&#x20;
+Unpublish and remove your site from the **Docs site** section in the GitBook app.
 
 **Note:** Deleting a site is a permanent action and cannot be undone. Any settings and customizations will be lost, but your content will remain in its [space](../creating-content/content-structure/space.md).
 
@@ -61,7 +61,7 @@ Choose who sees your published content. See [publish-a-docs-site](publish-a-docs
 
 <details>
 
-<summary>Adaptive content <mark style="background-color:purple;">Ultimate</mark> </summary>
+<summary>Adaptive content <mark style="background-color:purple;">Ultimate</mark></summary>
 
 Turn on adaptive content for your site pages, variants, and sections. [Adaptive content](adaptive-content/) lets you hide or show content for different visitors, depending on their permissions.
 
@@ -118,8 +118,6 @@ Choose whether or not visitors to your published content can leave a rating on e
 You can review the results of these ratings by opening the [**Insights**](insights.md) section of your docs site dashboard and selecting the [**Content scores**](insights.md#content-scores) tab.
 
 </details>
-
-
 
 ### Site structure
 

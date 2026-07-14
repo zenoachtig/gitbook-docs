@@ -6,7 +6,7 @@ icon: sitemap
 
 View and manage the settings for your GitBook organization. These include member management, sign-in methods, integrations, billing and plans.
 
-<figure><img src="../.gitbook/assets/10_01_25_organization_settings.svg" alt="A GitBook screenshot showing the organization settings page" ><figcaption><p>Your organization settings page.</p></figcaption></figure>
+<figure><img src="../untitled/.gitbook/assets/10_01_25_organization_settings.svg" alt="A GitBook screenshot showing the organization settings page"><figcaption><p>Your organization settings page.</p></figcaption></figure>
 
 ### How to access the settings for an organization
 
@@ -31,9 +31,9 @@ Each published GitBook space that lives within your organization’s library wil
 1. `[something].gitbook.com` (this is the GitBook subdomain) **or** your own custom subdomain
 2. `/[spaceURL]` (this is set within the settings for the space itself)
 
-You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.&#x20;
+You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
 
-&#x20;Note: GitBook subdomains are a legacy feature, and you may not have access to change your subdomain at the time of reading this doc. Please refer to [custom domain setup](../publishing-documentation/custom-domain.md) and [site sections](../publishing-documentation/site-structure/site-sections.md) to learn more about structuring your docs with custom URLs.
+Note: GitBook subdomains are a legacy feature, and you may not have access to change your subdomain at the time of reading this doc. Please refer to [custom domain setup](../publishing-documentation/custom-domain.md) and [site sections](../publishing-documentation/site-structure/site-sections.md) to learn more about structuring your docs with custom URLs.
 
 **Actions**
 

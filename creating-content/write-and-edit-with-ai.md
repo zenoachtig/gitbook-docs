@@ -1,6 +1,6 @@
 ---
-icon: wand-magic-sparkles
 description: Use GitBook AI to generate and build content for your page
+icon: wand-magic-sparkles
 ---
 
 # Writing with GitBook AI
@@ -9,7 +9,7 @@ description: Use GitBook AI to generate and build content for your page
 
 You can use GitBook AI to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 
-<figure><img src="../.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt="A GitBook screenshot showing the AI writing options" ><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
+<figure><img src="../untitled/.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt="A GitBook screenshot showing the AI writing options"><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
 
 ### Write with GitBook AI
 
@@ -35,7 +35,7 @@ As you can imagine, this option will summarize all the content on your page — 
 
 #### Explain this
 
-This will break down the complex information on your page and explain it in simpler language — including explaining acronyms and other jargon. This is perfect if the page you’re reading involves a lot of complex information, or you want to add an explainer for less technical folks.
+This will break down the complex information on your page and explain it in simpler language — including explaining acronyms and other jargon. This is perfect if the page you’re reading involves a lot of complex information, or you want to add an explainer for less technical folks.
 
 #### Translate
 
