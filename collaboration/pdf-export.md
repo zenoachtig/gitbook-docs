@@ -25,7 +25,7 @@ Note that links across spaces are not currently supported when exporting interna
 
 1.  Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui.md#the-actions-menu)
 
-    <picture><source srcset="../untitled/.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../untitled/.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
     next to the page title.
 2. Select **Export to PDF > Current page**.
@@ -36,11 +36,11 @@ Note that links across spaces are not currently supported when exporting interna
 
 1.  Open the[ Actions menu](../creating-content/content-structure/)
 
-    <picture><source srcset="../untitled/.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../untitled/.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
     next to the page title and choose **Export as PDF > All pages**. Alternatively, open the space’s **Actions menu**
 
-    <picture><source srcset="../untitled/.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../untitled/.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>
 
     in the [space header](../resources/gitbook-ui.md#space-header) and choose **Export as PDF** in the drop-down menu.\
     \
