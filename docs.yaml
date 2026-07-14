@@ -1,0 +1,10 @@
+site:
+  title: GitBook Docs
+  structure:
+    - type: space
+      key: space-1
+      title: Untitled
+      path: untitled
+      default: true
+      content:
+        directory: ./untitled
